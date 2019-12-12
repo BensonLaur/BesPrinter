@@ -90,11 +90,17 @@ namespace BesPrinter
             if (Directory.Exists(path))
             {
                 DirectoryInfo root = new DirectoryInfo(path);
+
+                //先收集
+                List<string> paths = new List<string>();
                 foreach (FileInfo f in root.GetFiles())
                 {
-                    if(supportedExtensions.Exists(t => t == f.Extension))
-                        listImagePath.Add(f.FullName);
+                    if (supportedExtensions.Exists(t => t == f.Extension))
+                        paths.Add(f.FullName);
                 }
+
+                //后排序（为了数值字符串能够更好排序，先比较长度，再比较内容）
+                listImagePath = paths.OrderBy(p => p.Length).ThenBy(p => p).ToList();
             }
             else if(File.Exists(path))
             {
