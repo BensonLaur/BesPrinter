@@ -114,6 +114,6 @@ namespace BesPrinter
 
         //自定义的其他打印属性
         public Margins MarginsCustom { get; set; }    //自定义的4个边距
-        public bool keepRatio { get; set; }           //是否源保持比例居中
+        public bool KeepRatio { get; set; }           //是否源保持比例居中
     }
 }

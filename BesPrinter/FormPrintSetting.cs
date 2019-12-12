@@ -81,7 +81,7 @@ namespace BesPrinter
             textBoxMarginBottom.Text = $"{saver.MarginsCustom.Bottom}";
 
             //按比例缩放居中设置
-            checkBoxKeepRadio.Checked = saver.keepRatio;
+            checkBoxKeepRadio.Checked = saver.KeepRatio;
         }
 
         /// <summary>
@@ -172,7 +172,7 @@ namespace BesPrinter
         /// </summary>
         private void checkBoxKeepRadio_CheckedChanged(object sender, EventArgs e)
         {
-            saver.keepRatio = checkBoxKeepRadio.Checked;
+            saver.KeepRatio = checkBoxKeepRadio.Checked;
             SaveConfig();
         }
 
@@ -236,7 +236,7 @@ namespace BesPrinter
                 RectangleF rectDraw = rectContainer; //初始值
                 
                 //根据是否缩放设置，获得对应的绘制区域
-                if (saver.keepRatio)
+                if (saver.KeepRatio)
                 {
                     rectDraw = ImageHelper.GetKeepRadioRect(rectImage, rectContainer,
                                             saver.MarginsCustom.Left, saver.MarginsCustom.Right,
