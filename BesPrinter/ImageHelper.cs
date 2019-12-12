@@ -11,6 +11,38 @@ namespace BesPrinter
     class ImageHelper
     {
         /// <summary>
+        ///获得支持显示的图片格式
+        /// </summary>
+        static public List<string> GetSupportedFormat()
+        {
+            List<string> formatSet = new List<string>();
+
+            //注：该格式的顺序【必须】和 imageList 的元素一一对应
+            formatSet.Add("bmp");
+            formatSet.Add("png");
+            formatSet.Add("jpg");
+            formatSet.Add("jpeg");
+            formatSet.Add("svg");
+            formatSet.Add("emf");
+
+            return formatSet;
+        }
+
+        /// <summary>
+        ///获得支持显示的图片后缀（包括符号 .）
+        /// </summary>
+        static public List<string> GetSupportedFormatExtension()
+        {
+            List<string> formatSet = GetSupportedFormat();
+
+            List<string> extensionSet = new List<string>();
+            foreach (string format in formatSet)
+                extensionSet.Add("." + format);
+
+            return extensionSet;
+        }
+        
+        /// <summary>
         ///加载路径下的一张图片，读取失败或格式不支持返回一张默认图片
         /// </summary>
         /// 
@@ -165,7 +197,117 @@ namespace BesPrinter
                 MessageBox.Show(e.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-        
+
+        /// <summary>
+        /// 将文件或文件夹 path1 的图片文件转换为 文件或文件夹 path2 下的文件 
+        /// </summary>
+        static public int ConvertImageByPath(string path1, string path2, string format1, string format2)
+        {
+            if (!(File.Exists(path1) || Directory.Exists(path1) && Directory.Exists(path2)))
+            {
+                MessageBox.Show($"invalid path: from [{path1}] to [{path2}]\n\n when from-path is file, to-path can be directory or file \n\n when from-path is directory, to-path must be directory too",
+                    "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return -1;
+            }
+            else
+            {
+                List<string> ImagesFrom = new List<string>();
+                List<string> ImagesTo = new List<string>();
+
+                FileInfo f1 = new FileInfo(path1);
+                FileInfo f2 = new FileInfo(path2);
+
+                //第一个路径是文件的情况
+                if(File.Exists(path1) && Directory.Exists(f2.DirectoryName))
+                {
+                    //确认文件2的名称
+                    string fileName2 = System.IO.Path.GetFileNameWithoutExtension(path2);
+                    if (f2.Extension == null || f2.Extension.Equals("")) //没有后缀认为路径2为目录
+                    {
+                        fileName2 = System.IO.Path.GetFileNameWithoutExtension(path1);
+                    }
+
+                    //构建文件2的路径
+                    string file2 = f2.DirectoryName + "\\" + fileName2 + "." + format2;
+
+                    // ImagesFrom 和 ImagesTo 个数一致
+                    ImagesFrom.Add(path1);
+                    ImagesTo.Add(file2);
+                }
+                else if (Directory.Exists(path1) && Directory.Exists(path2))
+                {
+                    //收集符合格式要求的文件，或文件夹下的文件
+                    
+                    DirectoryInfo root = new DirectoryInfo(path1);
+                    foreach (FileInfo f in root.GetFiles())
+                    {
+                        if (f.Extension.Equals("."+format1))
+                            ImagesFrom.Add(f.FullName);
+                    }
+
+                    string directory2 = f2.DirectoryName;
+                    foreach (string f in ImagesFrom)
+                    {
+                        FileInfo info1 = new FileInfo(f);
+                        string file1Name = System.IO.Path.GetFileNameWithoutExtension(f);
+                        string file2 = directory2 + "\\" + file1Name + "." + format2;
+                        ImagesTo.Add(file2);
+                    }
+
+                    // ImagesFrom 和 ImagesTo 个数一致
+                }
+
+                //将 ImagesFrom 和 ImagesTo 的文件对应进行装换
+                for(int i = 0; i< ImagesFrom.Count; i++)
+                {
+                    if(!ConvertImage(ImagesFrom[i], ImagesTo[i])) //失败任意一个则退出
+                        return -1;
+                }
+
+                return 0;
+            }
+        }
+
+        /// <summary>
+        /// 将 pathFrom 的图片文件转换为 pathTo 对应格式的图片文件 
+        /// </summary>
+        static public bool ConvertImage(string pathImageFrom, string pathImageTo)
+        {
+            FileInfo f1 = new FileInfo(pathImageFrom);
+            FileInfo f2 = new FileInfo(pathImageTo);
+
+            if(f1.Extension.Equals(".svg") && f2.Extension.Equals(".emf"))
+            {
+                try
+                {
+                    SvgDocument svg = SvgDocument.Open(pathImageFrom);
+                    using (Graphics bufferGraphics = Graphics.FromHwndInternal(IntPtr.Zero))
+                    {
+                        using (var metafile = new Metafile(pathImageTo, bufferGraphics.GetHdc()))
+                        {
+                            using (Graphics graphics = Graphics.FromImage(metafile))
+                            {
+                                svg.Draw(graphics);
+                            }
+                        }
+                    }
+                }
+                catch(Exception e)
+                {
+                    MessageBox.Show(e.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return false;
+                }
+            }
+            else
+            {
+                MessageBox.Show($"unsupported convert [{pathImageFrom}]->[{pathImageTo}]\n\nSupported convert [svg]->[emf]",
+                    "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
+            return true;
+        }
+
         ///存储临时 emf 文件的路径，后面关闭程序时删除
         static private List<string> listTempEmfFiles = null; 
     }

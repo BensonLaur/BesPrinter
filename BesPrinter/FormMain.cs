@@ -15,26 +15,40 @@ namespace BesPrinter
 {
     public partial class FormMain : Form
     {
-        public FormMain()
+        public FormMain(ExeModeManager exeMode)
         {
             InitializeComponent();
+
+            //获得执行模式
+            ExeMode = exeMode;
+
         }
 
         //窗口加载
         private void FormMain_Load(object sender, EventArgs e)
         {
-            //注：该格式的顺序【必须】和 imageList 的元素一一对应
-            formatSet.Add(".bmp");
-            formatSet.Add(".png");
-            formatSet.Add(".jpg");
-            formatSet.Add(".jpeg");
-            formatSet.Add(".svg");
-            formatSet.Add(".emf");
+            supportedExtensions = ImageHelper.GetSupportedFormatExtension();
 
             //初始化 toolTip
             toolTipDragDrop.SetToolTip(textBoxPath, "提示");
             toolTipDragDrop.SetToolTip(buttonSelectFile, "提示");
             toolTipDragDrop.SetToolTip(buttonSelectFloder, "提示");
+
+            //对运行模式做出响应
+            //如果是初始路径模式，设定一个初始路径
+            if (ExeMode.mode == EXE_MODE.MODE_INIT_PATH)
+            {
+                textBoxPath.Text = ExeMode.initPath;
+                loadImageListView(ExeMode.initPath);
+            }
+            else if(ExeMode.mode == EXE_MODE.MODE_SINGLE_IMAGE)
+            {
+                textBoxPath.Text = ExeMode.singleImagePath;
+                loadImageListView(ExeMode.singleImagePath);
+
+                //直接弹框显示第一张图片的数据,然后关闭后退出
+                ShowFirstListItemImageAndExist();
+            }
         }
 
         //窗口关闭
@@ -78,14 +92,14 @@ namespace BesPrinter
                 DirectoryInfo root = new DirectoryInfo(path);
                 foreach (FileInfo f in root.GetFiles())
                 {
-                    if(formatSet.Exists(t => t == f.Extension))
+                    if(supportedExtensions.Exists(t => t == f.Extension))
                         listImagePath.Add(f.FullName);
                 }
             }
             else if(File.Exists(path))
             {
                 FileInfo info = new FileInfo(path);
-                if (formatSet.Exists(t => t == info.Extension))
+                if (supportedExtensions.Exists(t => t == info.Extension))
                     listImagePath.Add(path);
             }
 
@@ -95,9 +109,9 @@ namespace BesPrinter
             {
                 FileInfo finfo = new FileInfo(listImagePath[i]);
 
-                int imageIndex = formatSet.IndexOf(finfo.Extension);
+                int imageIndex = supportedExtensions.IndexOf(finfo.Extension);
                 if (imageIndex == -1) //该逻辑应该不会出现
-                    imageIndex = formatSet.Count-1;
+                    imageIndex = supportedExtensions.Count-1;
 
                 ListViewItem item = new ListViewItem();
                 item.Text = finfo.Name;
@@ -152,6 +166,20 @@ namespace BesPrinter
             formViewImage.ShowDialog();
         }
 
+        //直接弹框显示第一张图片的数据,然后关闭后退出
+        private void ShowFirstListItemImageAndExist()
+        {
+            var items = listViewImage.Items;
+
+            //获得第一个 item 的图形下标 
+            if (items.Count <= 0)
+                return;
+
+            formViewImage.SetImageForView(listImagePath, 0);
+            formViewImage.ShowDialog();
+            this.Close();
+        }
+
         //打印机设置按钮
         private void buttonPrintSetting_Click(object sender, EventArgs e)
         {
@@ -168,7 +196,7 @@ namespace BesPrinter
         //保存图片路径
         private List<string> listImagePath = new List<string>();
         //支持的图片格式集合
-        private List<string> formatSet = new List<string>();
+        private List<string> supportedExtensions = new List<string>();
         
         //窗口
         //查看图片窗口
@@ -176,5 +204,6 @@ namespace BesPrinter
         //打印机设置窗口
         private FormPrintSetting formPrintSetting = new FormPrintSetting();
 
+        private ExeModeManager ExeMode = null;
     }
 }
