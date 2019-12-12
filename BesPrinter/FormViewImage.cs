@@ -24,8 +24,18 @@ namespace BesPrinter
             listImagePath = filePaths;
             currentIndex = index;
 
+            //如果图片只有1张，上一个和下一个按钮就不显示
+            buttonLastOne.Visible = !hasOnlyOne();
+            buttonNextOne.Visible = !hasOnlyOne();
+
             //更新图片信息，包括标题和图片缓存（在下标的改变之后）
             UpdateImageInfo();
+        }
+
+        //只有一张图片
+        private bool hasOnlyOne()
+        {
+            return (listImagePath == null || listImagePath.Count <= 1);
         }
 
         //显示窗口之后，触发一次重新布局
@@ -89,7 +99,7 @@ namespace BesPrinter
             
             //更改标题
             FileInfo info = new FileInfo(listImagePath[index]);
-            this.Text = $"{info.Name} ({index + 1} / {listImagePath.Count})";
+            this.Text = hasOnlyOne() ? $"{info.Name}" : $"{info.Name} ({index + 1} / {listImagePath.Count})";
         }
 
         //刷新图片显示
@@ -114,6 +124,13 @@ namespace BesPrinter
         //重新缓存图片
         private void RebufferImage()
         {
+            //及时释放已有的从 ImageHelper.LoaderImage 得到的 imageBuffer，这样程序关闭时才能正常删除临时文件
+            if (imageBuffer != null)
+            {
+                imageBuffer.Dispose();
+                imageBuffer = null;
+            }
+
             int index = ValidatedIndex();
             if (index < 0)
             {
@@ -191,6 +208,16 @@ namespace BesPrinter
                 
                 //刷新显示
                 RefleshImage();
+            }
+        }
+
+        //关闭窗口前要释放从 ImageHelper.LoaderImage 得到的 imageBuffer，这样程序关闭时才能正常删除临时文件
+        private void FormViewImage_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (imageBuffer != null)
+            {
+                imageBuffer.Dispose();
+                imageBuffer = null;
             }
         }
 

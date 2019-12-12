@@ -91,12 +91,14 @@
             resources.ApplyResources(this.buttonPrintSetting, "buttonPrintSetting");
             this.buttonPrintSetting.Name = "buttonPrintSetting";
             this.buttonPrintSetting.UseVisualStyleBackColor = true;
+            this.buttonPrintSetting.Click += new System.EventHandler(this.buttonPrintSetting_Click);
             // 
             // buttonPrint
             // 
             resources.ApplyResources(this.buttonPrint, "buttonPrint");
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.UseVisualStyleBackColor = true;
+            this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
             // 
             // buttonSelectFloder
             // 
@@ -131,7 +133,10 @@
             this.Controls.Add(this.textBoxPath);
             this.Controls.Add(this.labelPath);
             this.HelpButton = true;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMain_FormClosed);
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.FormMain_DragDrop);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.FormMain_DragEnter);
             this.ResumeLayout(false);

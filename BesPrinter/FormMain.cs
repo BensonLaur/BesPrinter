@@ -18,7 +18,11 @@ namespace BesPrinter
         public FormMain()
         {
             InitializeComponent();
-            
+        }
+
+        //窗口加载
+        private void FormMain_Load(object sender, EventArgs e)
+        {
             //注：该格式的顺序【必须】和 imageList 的元素一一对应
             formatSet.Add(".bmp");
             formatSet.Add(".png");
@@ -31,6 +35,13 @@ namespace BesPrinter
             toolTipDragDrop.SetToolTip(textBoxPath, "提示");
             toolTipDragDrop.SetToolTip(buttonSelectFile, "提示");
             toolTipDragDrop.SetToolTip(buttonSelectFloder, "提示");
+        }
+
+        //窗口关闭
+        private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //删除所有可能产生的临时文件
+            ImageHelper.ClearTempEmfFiles();
         }
 
         //选择单个文件
@@ -96,7 +107,9 @@ namespace BesPrinter
                 
                 listViewImage.Items.Add(item);
             }
-            
+
+            //更新打印需要的数据到打印存储队列中
+            formPrintSetting.SetPrintingImage(listImagePath);
         }
 
         //拖拽事件：进入
@@ -116,6 +129,7 @@ namespace BesPrinter
             loadImageListView(path);
         }
 
+        //列表项双击事件
         private void ListViewItemDoubleClick(object sender, EventArgs e)
         {
             ListView listView = (ListView)sender;
@@ -138,11 +152,29 @@ namespace BesPrinter
             formViewImage.ShowDialog();
         }
 
+        //打印机设置按钮
+        private void buttonPrintSetting_Click(object sender, EventArgs e)
+        {
+            formPrintSetting.ShowDialog();
+        }
+
+        //打印
+        private void buttonPrint_Click(object sender, EventArgs e)
+        {
+            //预览和打印
+            formPrintSetting.PreviewToPrint();
+        }
+
         //保存图片路径
         private List<string> listImagePath = new List<string>();
         //支持的图片格式集合
         private List<string> formatSet = new List<string>();
+        
+        //窗口
         //查看图片窗口
         private FormViewImage formViewImage = new FormViewImage();
+        //打印机设置窗口
+        private FormPrintSetting formPrintSetting = new FormPrintSetting();
+
     }
 }

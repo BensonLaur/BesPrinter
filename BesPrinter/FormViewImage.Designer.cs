@@ -84,8 +84,11 @@
             this.Controls.Add(this.buttonLastOne);
             this.Controls.Add(this.pictureBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(300, 300);
             this.Name = "FormViewImage";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormViewImage_FormClosed);
             this.Shown += new System.EventHandler(this.FormViewImage_Shown);
             this.SizeChanged += new System.EventHandler(this.FormViewImage_SizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
