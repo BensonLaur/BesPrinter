@@ -117,7 +117,7 @@ namespace BesPrinter
 
             //绘制图片到 pictureBox 上
             Graphics g = pictureBox.CreateGraphics();
-            g.Clear(Color.Black);
+            g.Clear(Color.FromArgb(0XFF, 0XCC, 0XCC, 0XCC));
             g.DrawImage(imageBuffer, rectDraw);
         }
 
