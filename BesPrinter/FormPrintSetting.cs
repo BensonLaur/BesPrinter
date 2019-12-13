@@ -199,9 +199,9 @@ namespace BesPrinter
         /// </summary>
         public void PreviewToPrint()
         {
-            if (listImagePath == null)
+            if (listImagePath == null || listImagePath.Count == 0)
             {
-                MessageBox.Show("当前没有可打印的文件", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("当前没有可打印的文件\n\n请先选择需要打印的文件", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
@@ -215,7 +215,7 @@ namespace BesPrinter
         private void PrintPage(object sender, PrintPageEventArgs args)
         {
             //没有数据，直接返回
-            if(listImagePath == null)
+            if(listImagePath == null || listImagePath.Count == 0)
             {
                 args.HasMorePages = false;
                 return;
@@ -254,7 +254,7 @@ namespace BesPrinter
             }
             catch (Exception exception)
             {
-                MessageBox.Show(exception.Message, "提示2", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(exception.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             finally
             {
