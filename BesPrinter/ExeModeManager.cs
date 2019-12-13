@@ -13,8 +13,8 @@ namespace BesPrinter
         MODE_NORMAL = 0,           //完全正常模式——什么参数都不传, 无参数启动: exe 
         MODE_INIT_PATH = 1,        //初始路径模式——传入一个初始路径: exe 1 "init/file/or/floder/path"
         MODE_SINGLE_IMAGE = 2,     //单图查看模式——传入一个文件路径：exe 2 "image/file/path"
-        MODE_FORMAT_CONVERT = 3,    //格式装换模式——传入2个格式后缀，2个路径： exe 3 format1 format2 "path1" "path2"
-        MODE_END
+        MODE_FORMAT_CONVERT = 3,   //格式转换模式——传入2个格式后缀，2个路径： exe 3 format1 format2 "path1" "path2"
+        MODE_END                   //         或者 传入2个格式后缀，1个路径： exe 3 format1 format2 "path"
     }
 
     public class ExeModeManager
@@ -75,16 +75,23 @@ namespace BesPrinter
                         break;
                     case EXE_MODE.MODE_FORMAT_CONVERT:
                         {
-                            if (args.Length == 5)
+                            if (args.Length == 4 || args.Length == 5)
                             {
                                 exeMode.formatFrom = args[1];
                                 exeMode.formatTo = args[2];
                                 exeMode.pathFrom = args[3];
-                                exeMode.pathTo = args[4];
 
-                                if(exeMode.formatFrom == "svg" && exeMode.formatTo == "emf")
+                                if (args.Length == 5)
+                                    exeMode.pathTo = args[4];
+                                else
+                                    exeMode.pathTo = null;
+
+                                if (exeMode.formatFrom == "svg" && exeMode.formatTo == "emf")
                                 {
-                                    if(!(File.Exists(exeMode.pathFrom) || Directory.Exists(exeMode.pathFrom) && Directory.Exists(exeMode.pathTo)))
+                                    if(!(File.Exists(exeMode.pathFrom) || 
+                                         (Directory.Exists(exeMode.pathFrom) && (exeMode.pathTo == null || Directory.Exists(exeMode.pathTo)))
+                                        )
+                                      )
                                     {
                                         MessageBox.Show($"invalid path: from [{exeMode.pathFrom}] to [{exeMode.formatTo}]\n\n when from-path is file, to-path can be directory or file \n\n when from-path is directory, to-path must be directory too",
                                             "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);

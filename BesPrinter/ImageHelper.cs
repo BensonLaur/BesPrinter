@@ -214,9 +214,12 @@ namespace BesPrinter
                 List<string> ImagesFrom = new List<string>();
                 List<string> ImagesTo = new List<string>();
 
+                if (Directory.Exists(path2) && path2.LastIndexOf("\\") != path2.Length - 1)
+                    path2 += "\\";
+
                 FileInfo f1 = new FileInfo(path1);
                 FileInfo f2 = new FileInfo(path2);
-
+                
                 //第一个路径是文件的情况
                 if(File.Exists(path1) && Directory.Exists(f2.DirectoryName))
                 {
@@ -230,9 +233,12 @@ namespace BesPrinter
                     //构建文件2的路径
                     string file2 = f2.DirectoryName + "\\" + fileName2 + "." + format2;
 
-                    // ImagesFrom 和 ImagesTo 个数一致
-                    ImagesFrom.Add(path1);
-                    ImagesTo.Add(file2);
+                    if (f1.Extension.Equals("." + format1)) //格式得符合的情况才转换
+                    {
+                        // ImagesFrom 和 ImagesTo 个数一致
+                        ImagesFrom.Add(path1);
+                        ImagesTo.Add(file2);
+                    }
                 }
                 else if (Directory.Exists(path1) && Directory.Exists(path2))
                 {
@@ -245,7 +251,7 @@ namespace BesPrinter
                             ImagesFrom.Add(f.FullName);
                     }
 
-                    string directory2 = f2.DirectoryName;
+                    string directory2 = f2.Directory.FullName;
                     foreach (string f in ImagesFrom)
                     {
                         FileInfo info1 = new FileInfo(f);
@@ -266,6 +272,58 @@ namespace BesPrinter
 
                 return 0;
             }
+        }
+
+        /// <summary>
+        /// 将文件或目录下的文件 从格式 format1 转为 format2 
+        /// </summary>
+        static public int ConvertImageByPath(string path, string format1, string  format2)
+        {
+            //收集来源
+            List<string> ImagesFrom = new List<string>();
+            if (Directory.Exists(path))
+            {
+                DirectoryInfo root = new DirectoryInfo(path);
+                foreach (FileInfo f in root.GetFiles())
+                {
+                    if (f.Extension.Equals("." + format1))
+                        ImagesFrom.Add(f.FullName);
+                }
+            }
+            else if(File.Exists(path))
+            {
+                FileInfo f = new FileInfo(path);
+
+                if (f.Extension.Equals("." + format1)) //格式得符合的情况才转换
+                {
+                    ImagesFrom.Add(path);
+                }
+            }
+
+            try
+            {
+                //逐个转换
+                foreach (string f in ImagesFrom)
+                {
+                    FileInfo info = new FileInfo(f);
+                    string file2 = info.Directory + "\\" + System.IO.Path.GetFileNameWithoutExtension(f) + "." + format2;
+
+                    int nRet = ConvertImageByPath(f, file2, format1, format2);
+                    if (nRet == 0)
+                    {
+                        File.Delete(f);
+                    }
+                    else
+                        return -1;
+                }
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return -1;
+            }
+
+            return 0;
         }
 
         /// <summary>

@@ -18,8 +18,16 @@ namespace BesPrinter
 
             if (exeMode.mode == EXE_MODE.MODE_FORMAT_CONVERT)
             {
-                exeMode.returnCode = ImageHelper.ConvertImageByPath(exeMode.pathFrom, exeMode.pathTo,
-                    exeMode.formatFrom, exeMode.formatTo);
+                if(exeMode.pathTo == null)
+                {
+                    exeMode.returnCode = ImageHelper.ConvertImageByPath(exeMode.pathFrom,
+                        exeMode.formatFrom, exeMode.formatTo);
+                }
+                else
+                {
+                    exeMode.returnCode = ImageHelper.ConvertImageByPath(exeMode.pathFrom, exeMode.pathTo,
+                        exeMode.formatFrom, exeMode.formatTo);
+                }
             }
             else
             {
