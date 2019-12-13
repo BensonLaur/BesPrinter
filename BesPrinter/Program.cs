@@ -16,6 +16,8 @@ namespace BesPrinter
         {
             ExeModeManager exeMode = ExeModeManager.AnaliseModeFromArgs(args);
 
+            if (exeMode.mode == EXE_MODE.MODE_END)//发生错误，直接返回
+                return -1;
             if (exeMode.mode == EXE_MODE.MODE_FORMAT_CONVERT)
             {
                 if(exeMode.pathTo == null)

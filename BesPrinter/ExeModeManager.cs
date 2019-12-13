@@ -93,10 +93,10 @@ namespace BesPrinter
                                         )
                                       )
                                     {
-                                        MessageBox.Show($"invalid path: from [{exeMode.pathFrom}] to [{exeMode.formatTo}]\n\n when from-path is file, to-path can be directory or file \n\n when from-path is directory, to-path must be directory too",
+                                        MessageBox.Show($"invalid path:\n\n path1 [{exeMode.pathFrom}]\n\n path2 [{exeMode.pathTo}]\n\n when from-path is file, to-path can be directory or file \n\n when from-path is directory, to-path must be directory too",
                                             "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                                        mode = EXE_MODE.MODE_NORMAL;
+                                        mode = EXE_MODE.MODE_END;//格式转换时发生错误，不能继续执行，置为 MODE_END 表示错误
                                     }
                                 }
                                 else
@@ -104,11 +104,11 @@ namespace BesPrinter
                                     MessageBox.Show($"unsupported convert [{exeMode.formatFrom}]->[{exeMode.formatTo}]\n\nSupported convert [svg]->[emf]",
                                         "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                                    mode = EXE_MODE.MODE_NORMAL;
+                                    mode = EXE_MODE.MODE_END;//格式转换时发生错误，不能继续执行，置为 MODE_END 表示错误
                                 }
                             }
                             else
-                                mode = EXE_MODE.MODE_NORMAL;
+                                mode = EXE_MODE.MODE_END;//格式转换时发生错误，不能继续执行，置为 MODE_END 表示错误
                         }
                         break;
                     default:
