@@ -118,95 +118,228 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelPath.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomRight</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 600</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 512</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAJiAAAAEAIAAoFAAAFgAAACgAAAAmAAAAQAAAAAEAIAAAAAAAABMAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADvj0AQ449IQOOPSEDjj0hA449IQOOP
+        SEDjj0hA449IQOOPSEDjj0hA449IQOOPSEDjj0hA449IQOOPSEDkj0owAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA5I9KMOKQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ij0qxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAOGPSoHikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y9KgeKQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOePSCDij0rR4pBK/+KQSv/ikEr/4Y9KgeGPSoHikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/wAA
+        AADikEr/4pBK/+KQSv/hj0nx4Y9KgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y9JcOKQ
+        Sv/ikEr/4pBK/+KQSv/hj0qB4Y9KgeKQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/AAAAAOKQSv/ikEr/4pBK/+KQSv/hj0nxAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+GPSoHhj0lw4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv8AAAAA4pBK/+KQSv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGP
+        SoHikEr/4pBK/+KQSv/ikEr/4Y9KgeePSCDhkEnf4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4Y9KgQAAAADikEr/4pBK/+KQSv/ikEr/4pBK/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y9KgeKQSv/ikEr/4pBK/+KQSv/hj0qBAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAOKQSv/ikEr/4pBK/+KQSv/ikEr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADhj0qB4pBK/+KQSv/ikEr/4pBK/+GPSuHij0nB4o9JweKPScHij0nB4o9JweKPScHij0nB4o9JweKP
+        ScHij0nB4o9JweKPScHij0nB4o9JweKPScHij0nB4o9JweKPScHij0nB4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGPSoHikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA4Y9KgeKQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAOGPSoHikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
+        Sv/ikEr/4pBK/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y9KgeKQSv/ikEr/4pBK/+KQ
+        Sv/hkEnf4pBJv+KQSb/ikEm/4pBJv+KQSb/ikEm/4pBJv+KQSb/ikEm/4pBJv+KQSb/ikEm/4pBJv+KQ
+        Sb/ikEm/4pBJv+KQSb/ikEm/4pBJv+KQSv/ikEr/4pBK/+KQSv/ikEr/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+GPSoEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4pBK/+KQ
+        Sv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGPSoHViVP/dFGe/41f
+        i//ikEr/4Y9KgeSUQxLij0iH449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
+        SZnjj0mZ449JmeOPSZnjj0mZ4Y5JTAAAAADikEr/4pBK/+KQSv/ikEr/4pBK/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA4Y9KgZlmgv8gIOD/ICDg/8mCXP/hj0qB5I1IQuOPSZnjj0mZ449JmeOP
+        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZAAAAAOKQ
+        Sv/ikEr/4pBK/+KQSv/ikEr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhj0lwvXtm/zku
+        zf9FNcT/4pBK/+GPSoHhjklM449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
+        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZkAAAAA4pBK/+KQSv/ikEr/4pBK/+GQSu8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOePSCDhkErP4pBK/+KQSv/ikEr/4Y9KgeGOSUzjj0mZ449JmeOP
+        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmQAA
+        AADikEr/4pBK/+KQSv/hkErv4Y9KgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA4Y5JTOOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
+        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnij0mPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhjklM449JmeOP
+        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeKO
+        SXIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGOSUzjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
+        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ4Y5JTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y5JTOOP
+        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeKO
+        SHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADljUYc449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
+        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnhjkdW5oAzCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADmgDMK5I1KJuSNSibkjUom5I1KJuSNSibkjUom5I1KJuSNSibkjUom5I1KJuSNSibljUYcAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//////wAAAD//////AAAAP/////8AAAA/wAAf/wAAAD+AAB//AAAAP4AAH/8AAAA/gAAf/wA
+        AAD+AAB//AAAAMAAAEH8AAAAwAAAQfwAAACBAABB/AAAAIEAAEH8AAAAgf//wfwAAACAAAAB/AAAAIAA
+        AAH8AAAAgAAAAfwAAACAAAAB/AAAAIAAAAH8AAAAgAAAAfwAAACB///B/AAAAIEAAMH8AAAAgQAAQfwA
+        AADBAABB/AAAAMEAAEH8AAAA/wAAf/wAAAD/AAD//AAAAP8AAP/8AAAA/wAB//wAAAD/AAP//AAAAP//
+        ///8AAAA//////wAAAD//////AAAAA==
+</value>
+  </data>
+  <data name="&gt;&gt;toolTipDragDrop.Name" xml:space="preserve">
+    <value>toolTipDragDrop</value>
+  </data>
+  <data name="&gt;&gt;labelPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="&gt;&gt;toolTipFormMain.Name" xml:space="preserve">
+    <value>toolTipFormMain</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFloder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonPrint.ToolTip" xml:space="preserve">
+    <value>预览和打印图片</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.Name" xml:space="preserve">
+    <value>buttonPrint</value>
   </data>
   <data name="labelPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 1, 0</value>
-  </data>
-  <data name="labelPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 30</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelPath.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="labelPath.Text" xml:space="preserve">
-    <value>路径</value>
-  </data>
-  <data name="labelPath.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;labelPath.Name" xml:space="preserve">
-    <value>labelPath</value>
-  </data>
-  <data name="&gt;&gt;labelPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelPath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelPath.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="textBoxPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 12</value>
-  </data>
-  <data name="textBoxPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>577, 27</value>
-  </data>
-  <data name="textBoxPath.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBoxPath.Name" xml:space="preserve">
-    <value>textBoxPath</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="&gt;&gt;textBoxPath.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBoxPath.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="listViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>857, 460</value>
   </data>
-  <data name="&gt;&gt;textBoxPath.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="labelPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 1, 0</value>
   </data>
-  <data name="buttonSelectFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>776, 10</value>
+  <data name="buttonPrintSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="buttonSelectFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 30</value>
   </data>
-  <data name="buttonSelectFile.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;toolTipFormMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonSelectFile.Text" xml:space="preserve">
-    <value>文件</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFloder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonSelectFile.Name" xml:space="preserve">
     <value>buttonSelectFile</value>
   </data>
-  <data name="&gt;&gt;buttonSelectFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonSelectFloder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;buttonSelectFile.Parent" xml:space="preserve">
+  <data name="buttonSelectFloder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 10</value>
+  </data>
+  <data name="buttonPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFloder.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;buttonSelectFile.ZOrder" xml:space="preserve">
+  <data name="buttonPrintSetting.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>393, 17</value>
-  </metadata>
+  <data name="&gt;&gt;toolTipDragDrop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>882, 553</value>
+  </data>
+  <data name="&gt;&gt;listViewImage.Name" xml:space="preserve">
+    <value>listViewImage</value>
+  </data>
+  <data name="labelPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="buttonPrintSetting.Text" xml:space="preserve">
+    <value>打印机设置</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="buttonPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBoxPath.Name" xml:space="preserve">
+    <value>textBoxPath</value>
+  </data>
+  <data name="textBoxPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 27</value>
+  </data>
   <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADQ
-        IAAAAk1TRnQBSQFMAgEBBwEAATgBAAE4AQABIAEAASABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADS
+        IAAAAk1TRnQBSQFMAgEBBwEAAbwBAAHQAQABIAEAASABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABgAMAAUADAAEBAQABCAYAASAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -346,260 +479,166 @@
         AfgBPwHBAYcB+AEAAQEBDwH4AQABAQEPAfgBAAEBAQ8B+AEAAQEBDwH4AX8B8AEfAfgBfwHwAR8B+AF/
         AfABHwH4AX8B8AEfAfgBfwHwAT8B+AF/AfABPwH4AX8B8AE/AfgBfwHwAT8B+AIAAX8B+AIAAX8B+AIA
         AX8B+AIAAX8B/AIAAf8B/AIAAf8B/AIAAf8B/AIAAf8B/AEAAQEB/wH8AQABAQH/AfwBAAEBAf8B/AEA
-        AQEB/ws=
+        AQEB/xYACw==
 </value>
   </data>
-  <data name="listViewImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 46</value>
+  <data name="labelPath.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="listViewImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>857, 460</value>
+  <data name="textBoxPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 12</value>
   </data>
-  <data name="listViewImage.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;buttonSelectFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;listViewImage.Name" xml:space="preserve">
-    <value>listViewImage</value>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSelectFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 10</value>
   </data>
   <data name="&gt;&gt;listViewImage.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;listViewImage.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;listViewImage.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonPrintSetting.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 512</value>
-  </data>
-  <data name="buttonPrintSetting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 30</value>
-  </data>
-  <data name="buttonPrintSetting.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="buttonPrintSetting.Text" xml:space="preserve">
-    <value>打印机设置</value>
-  </data>
-  <data name="&gt;&gt;buttonPrintSetting.Name" xml:space="preserve">
-    <value>buttonPrintSetting</value>
-  </data>
-  <data name="&gt;&gt;buttonPrintSetting.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonPrintSetting.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonPrintSetting.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="buttonPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonPrint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>751, 512</value>
-  </data>
-  <data name="buttonPrint.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 30</value>
-  </data>
-  <data name="buttonPrint.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="labelPath.Text" xml:space="preserve">
+    <value>路径</value>
   </data>
   <data name="buttonPrint.Text" xml:space="preserve">
-    <value>打印</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Name" xml:space="preserve">
-    <value>buttonPrint</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="buttonSelectFloder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonSelectFloder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>676, 10</value>
-  </data>
-  <data name="buttonSelectFloder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 30</value>
-  </data>
-  <data name="buttonSelectFloder.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="buttonSelectFloder.Text" xml:space="preserve">
-    <value>文件夹</value>
-  </data>
-  <data name="&gt;&gt;buttonSelectFloder.Name" xml:space="preserve">
-    <value>buttonSelectFloder</value>
-  </data>
-  <data name="&gt;&gt;buttonSelectFloder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonSelectFloder.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSelectFloder.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>185, 17</value>
-  </metadata>
-  <metadata name="toolTipDragDrop.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>520, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>882, 553</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAJiAAAAEAIAAoFAAAFgAAACgAAAAmAAAAQAAAAAEAIAAAAAAAABMAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADvj0AQ449IQOOPSEDjj0hA449IQOOP
-        SEDjj0hA449IQOOPSEDjj0hA449IQOOPSEDjj0hA449IQOOPSEDkj0owAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAA5I9KMOKQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ij0qxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAOGPSoHikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y9KgeKQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/AAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOePSCDij0rR4pBK/+KQSv/ikEr/4Y9KgeGPSoHikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/wAA
-        AADikEr/4pBK/+KQSv/hj0nx4Y9KgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y9JcOKQ
-        Sv/ikEr/4pBK/+KQSv/hj0qB4Y9KgeKQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/AAAAAOKQSv/ikEr/4pBK/+KQSv/hj0nxAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+GPSoHhj0lw4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv8AAAAA4pBK/+KQSv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGP
-        SoHikEr/4pBK/+KQSv/ikEr/4Y9KgeePSCDhkEnf4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4Y9KgQAAAADikEr/4pBK/+KQSv/ikEr/4pBK/wAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y9KgeKQSv/ikEr/4pBK/+KQSv/hj0qBAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAOKQSv/ikEr/4pBK/+KQSv/ikEr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AADhj0qB4pBK/+KQSv/ikEr/4pBK/+GPSuHij0nB4o9JweKPScHij0nB4o9JweKPScHij0nB4o9JweKP
-        ScHij0nB4o9JweKPScHij0nB4o9JweKPScHij0nB4o9JweKPScHij0nB4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGPSoHikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAA4Y9KgeKQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAOGPSoHikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQSv/ikEr/4pBK/+KQ
-        Sv/ikEr/4pBK/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y9KgeKQSv/ikEr/4pBK/+KQ
-        Sv/hkEnf4pBJv+KQSb/ikEm/4pBJv+KQSb/ikEm/4pBJv+KQSb/ikEm/4pBJv+KQSb/ikEm/4pBJv+KQ
-        Sb/ikEm/4pBJv+KQSb/ikEm/4pBJv+KQSv/ikEr/4pBK/+KQSv/ikEr/AAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAADhj0qB4pBK/+KQSv/ikEr/4pBK/+GPSoEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4pBK/+KQ
-        Sv/ikEr/4pBK/+KQSv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGPSoHViVP/dFGe/41f
-        i//ikEr/4Y9KgeSUQxLij0iH449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
-        SZnjj0mZ449JmeOPSZnjj0mZ4Y5JTAAAAADikEr/4pBK/+KQSv/ikEr/4pBK/wAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAA4Y9KgZlmgv8gIOD/ICDg/8mCXP/hj0qB5I1IQuOPSZnjj0mZ449JmeOP
-        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZAAAAAOKQ
-        Sv/ikEr/4pBK/+KQSv/ikEr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhj0lwvXtm/zku
-        zf9FNcT/4pBK/+GPSoHhjklM449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
-        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZkAAAAA4pBK/+KQSv/ikEr/4pBK/+GQSu8AAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOePSCDhkErP4pBK/+KQSv/ikEr/4Y9KgeGOSUzjj0mZ449JmeOP
-        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmQAA
-        AADikEr/4pBK/+KQSv/hkErv4Y9KgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAA4Y5JTOOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
-        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnij0mPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhjklM449JmeOP
-        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeKO
-        SXIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGOSUzjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
-        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ4Y5JTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Y5JTOOP
-        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeKO
-        SHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADljUYc449JmeOPSZnjj0mZ449JmeOPSZnjj0mZ449JmeOP
-        SZnjj0mZ449JmeOPSZnjj0mZ449JmeOPSZnhjkdW5oAzCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AADmgDMK5I1KJuSNSibkjUom5I1KJuSNSibkjUom5I1KJuSNSibkjUom5I1KJuSNSibljUYcAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAA//////wAAAD//////AAAAP/////8AAAA/wAAf/wAAAD+AAB//AAAAP4AAH/8AAAA/gAAf/wA
-        AAD+AAB//AAAAMAAAEH8AAAAwAAAQfwAAACBAABB/AAAAIEAAEH8AAAAgf//wfwAAACAAAAB/AAAAIAA
-        AAH8AAAAgAAAAfwAAACAAAAB/AAAAIAAAAH8AAAAgAAAAfwAAACB///B/AAAAIEAAMH8AAAAgQAAQfwA
-        AADBAABB/AAAAMEAAEH8AAAA/wAAf/wAAAD/AAD//AAAAP8AAP/8AAAA/wAB//wAAAD/AAP//AAAAP//
-        ///8AAAA//////wAAAD//////AAAAA==
-</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>900, 600</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>900, 600</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
     <value>打印</value>
   </data>
   <data name="&gt;&gt;imageList.Name" xml:space="preserve">
     <value>imageList</value>
   </data>
-  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonSelectFloder.ToolTip" xml:space="preserve">
+    <value>可通过拖放文件或文件夹来快速选择</value>
   </data>
-  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
-    <value>openFileDialog</value>
+  <data name="&gt;&gt;listViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
-    <value>folderBrowserDialog</value>
+  <data name="buttonSelectFile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;labelPath.Name" xml:space="preserve">
+    <value>labelPath</value>
   </data>
-  <data name="&gt;&gt;toolTipDragDrop.Name" xml:space="preserve">
-    <value>toolTipDragDrop</value>
+  <data name="labelPath.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;toolTipDragDrop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 600</value>
+  </data>
+  <data name="buttonSelectFile.ToolTip" xml:space="preserve">
+    <value>可通过拖放文件或文件夹来快速选择</value>
+  </data>
+  <data name="&gt;&gt;labelPath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonSelectFile.Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFile.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonPrintSetting.ToolTip" xml:space="preserve">
+    <value>设置打印机相关的参数</value>
+  </data>
+  <data name="buttonSelectFloder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 30</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="listViewImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSelectFloder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBoxPath.ToolTip" xml:space="preserve">
+    <value>可通过拖放文件或文件夹来快速选择</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFloder.Name" xml:space="preserve">
+    <value>buttonSelectFloder</value>
+  </data>
+  <data name="labelPath.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 46</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintSetting.Name" xml:space="preserve">
+    <value>buttonPrintSetting</value>
+  </data>
+  <data name="&gt;&gt;textBoxPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonSelectFloder.Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="toolTipDragDrop.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>520, 17</value>
+  </data>
+  <data name="&gt;&gt;listViewImage.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormMain</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonPrintSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 512</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintSetting.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>en</value>
+  </data>
+  <data name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>185, 17</value>
+  </data>
+  <data name="toolTipFormMain.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>520, 17</value>
+  </data>
+  <data name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>393, 17</value>
+  </data>
+  <data name="text.Tip" xml:space="preserve">
+    <value>提示</value>
   </data>
 </root>

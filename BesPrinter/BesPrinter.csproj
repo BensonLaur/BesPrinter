@@ -93,6 +93,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppConfig.cs" />
     <Compile Include="ExeModeManager.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
@@ -113,12 +114,25 @@
       <DependentUpon>FormViewImage.cs</DependentUpon>
     </Compile>
     <Compile Include="ImageHelper.cs" />
+    <Compile Include="IniHelper.cs" />
     <Compile Include="JsonSerializer.cs" />
     <Compile Include="PrintDocumentSaver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Language\Translation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Translation.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Trans.cs" />
+    <EmbeddedResource Include="FormMain.en.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrintSetting.en.resx">
+      <DependentUpon>FormPrintSetting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrintSetting.resx">
       <DependentUpon>FormPrintSetting.cs</DependentUpon>
@@ -126,6 +140,7 @@
     <EmbeddedResource Include="FormViewImage.resx">
       <DependentUpon>FormViewImage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Language\Translation.en.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -136,6 +151,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Language\Translation.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Translation.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

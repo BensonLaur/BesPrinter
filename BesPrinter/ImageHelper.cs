@@ -91,7 +91,7 @@ namespace BesPrinter
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(e.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(e.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     finally
                     {
@@ -194,7 +194,7 @@ namespace BesPrinter
             }
             catch(Exception e)
             {
-                MessageBox.Show(e.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(e.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -206,7 +206,7 @@ namespace BesPrinter
             if (!(File.Exists(path1) || Directory.Exists(path1) && Directory.Exists(path2)))
             {
                 MessageBox.Show($"invalid path: from [{path1}] to [{path2}]\n\n when from-path is file, to-path can be directory or file \n\n when from-path is directory, to-path must be directory too",
-                    "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return -1;
             }
             else
@@ -319,7 +319,7 @@ namespace BesPrinter
             }
             catch(Exception e)
             {
-                MessageBox.Show(e.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(e.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return -1;
             }
 
@@ -352,14 +352,14 @@ namespace BesPrinter
                 }
                 catch(Exception e)
                 {
-                    MessageBox.Show(e.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(e.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return false;
                 }
             }
             else
             {
                 MessageBox.Show($"unsupported convert [{pathImageFrom}]->[{pathImageTo}]\n\nSupported convert [svg]->[emf]",
-                    "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return false;
             }
 

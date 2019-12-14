@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,6 +15,9 @@ namespace BesPrinter
         [STAThread]
         static int Main(string[] args)
         {
+            //AppConfig.config.SetLanguage("en");
+            System.Threading.Thread.CurrentThread.CurrentUICulture = AppConfig.config.GetCultrueInfo();
+
             ExeModeManager exeMode = ExeModeManager.AnaliseModeFromArgs(args);
 
             if (exeMode.mode == EXE_MODE.MODE_END)//发生错误，直接返回

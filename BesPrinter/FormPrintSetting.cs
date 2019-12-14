@@ -201,7 +201,7 @@ namespace BesPrinter
         {
             if (listImagePath == null || listImagePath.Count == 0)
             {
-                MessageBox.Show("当前没有可打印的文件\n\n请先选择需要打印的文件", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(Trans.tr("NoPrintableFile"), Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
@@ -254,7 +254,7 @@ namespace BesPrinter
             }
             catch (Exception exception)
             {
-                MessageBox.Show(exception.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(exception.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             finally
             {

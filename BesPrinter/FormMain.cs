@@ -10,11 +10,20 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Collections;
 using System.IO;
+using System.Resources;
+using System.Reflection;
+using System.Globalization;
 
 namespace BesPrinter
 {
     public partial class FormMain : Form
     {
+        public static ResourceManager resourceManager = new ResourceManager("BesPrinter.FormMain", typeof(FormMain).Assembly);
+        public string tr(string name)
+        {
+            return resourceManager.GetString(name, AppConfig.config.GetCultrueInfo());
+        }
+
         public FormMain(ExeModeManager exeMode)
         {
             InitializeComponent();
@@ -22,17 +31,13 @@ namespace BesPrinter
             //获得执行模式
             ExeMode = exeMode;
 
+            supportedExtensions = ImageHelper.GetSupportedFormatExtension();
         }
 
         //窗口加载
         private void FormMain_Load(object sender, EventArgs e)
         {
-            supportedExtensions = ImageHelper.GetSupportedFormatExtension();
-
-            //初始化 toolTip
-            toolTipDragDrop.SetToolTip(textBoxPath, "提示");
-            toolTipDragDrop.SetToolTip(buttonSelectFile, "提示");
-            toolTipDragDrop.SetToolTip(buttonSelectFloder, "提示");
+            //toolTipFormMain.SetToolTip(buttonPrint, tr("buttonPrint.ToolTip"));
 
             //对运行模式做出响应
             //如果是初始路径模式，设定一个初始路径

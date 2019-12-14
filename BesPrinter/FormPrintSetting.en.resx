@@ -117,22 +117,97 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="printPreviewDialog.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;labelMarginBottom.Name" xml:space="preserve">
-    <value>labelMarginBottom</value>
-  </data>
-  <data name="&gt;&gt;printPreviewDialog.Name" xml:space="preserve">
-    <value>printPreviewDialog</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelPrinter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelMarginRight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="labelPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 33</value>
   </data>
-  <data name="labelPrinter.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="labelPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 40</value>
+  </data>
+  <data name="labelPrinter.Text" xml:space="preserve">
+    <value>Current printer</value>
+  </data>
+  <data name="labelPaper.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 73</value>
+  </data>
+  <data name="labelPaper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 40</value>
+  </data>
+  <data name="labelPaper.Text" xml:space="preserve">
+    <value>Current paper</value>
+  </data>
+  <data name="comboBoxPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 28</value>
+  </data>
+  <data name="buttonSettingPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 30</value>
+  </data>
+  <data name="buttonSettingPrinter.Text" xml:space="preserve">
+    <value>Setting printer</value>
+  </data>
+  <data name="labelMarginLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 40</value>
+  </data>
+  <data name="labelMarginLeft.Text" xml:space="preserve">
+    <value>Left margin</value>
+  </data>
+  <data name="labelMarginRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 40</value>
+  </data>
+  <data name="labelMarginRight.Text" xml:space="preserve">
+    <value>Right margin</value>
+  </data>
+  <data name="textBoxMarginLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 27</value>
+  </data>
+  <data name="textBoxMarginRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 27</value>
+  </data>
+  <data name="textBoxMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 174</value>
+  </data>
+  <data name="textBoxMarginBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 27</value>
+  </data>
+  <data name="textBoxMarginTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 138</value>
+  </data>
+  <data name="textBoxMarginTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 27</value>
+  </data>
+  <data name="labelMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 167</value>
+  </data>
+  <data name="labelMarginBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 40</value>
+  </data>
+  <data name="labelMarginBottom.Text" xml:space="preserve">
+    <value>Bottom margin</value>
+  </data>
+  <data name="labelMarginTop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMarginTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 131</value>
+  </data>
+  <data name="labelMarginTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 40</value>
+  </data>
+  <data name="labelMarginTop.Text" xml:space="preserve">
+    <value>Top margin</value>
+  </data>
+  <data name="checkBoxKeepRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 231</value>
+  </data>
+  <data name="checkBoxKeepRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 24</value>
+  </data>
+  <data name="checkBoxKeepRadio.Text" xml:space="preserve">
+    <value>Keep the scale of the original image and center it</value>
   </data>
   <data name="printPreviewDialog.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -307,258 +382,6 @@
         wf+0BQAAgAUAAIAFAACAAQAAgAHB/4ABAACAAQAAgAEAALwBAAC8AQAAvAHB/4ABbP///5H/
 </value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>544, 350</value>
-  </data>
-  <data name="&gt;&gt;checkBoxKeepRadio.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBoxPaper.Name" xml:space="preserve">
-    <value>comboBoxPaper</value>
-  </data>
-  <data name="labelMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>273, 167</value>
-  </data>
-  <data name="&gt;&gt;labelPaper.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelMarginTop.Name" xml:space="preserve">
-    <value>labelMarginTop</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginRight.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="buttonSettingPrinter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 30</value>
-  </data>
-  <data name="labelMarginTop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 131</value>
-  </data>
-  <data name="labelMarginLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 40</value>
-  </data>
-  <data name="buttonSettingPrinter.Text" xml:space="preserve">
-    <value>设置打印机</value>
-  </data>
-  <data name="&gt;&gt;comboBoxPaper.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxKeepRadio.Name" xml:space="preserve">
-    <value>checkBoxKeepRadio</value>
-  </data>
-  <data name="comboBoxPrinter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 28</value>
-  </data>
-  <data name="textBoxMarginBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 27</value>
-  </data>
-  <data name="&gt;&gt;comboBoxPrinter.Name" xml:space="preserve">
-    <value>comboBoxPrinter</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginLeft.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;printPreviewDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PrintPreviewDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelMarginLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 131</value>
-  </data>
-  <data name="&gt;&gt;labelMarginRight.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="textBoxMarginBottom.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="labelPaper.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="comboBoxPaper.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 80</value>
-  </data>
-  <data name="textBoxMarginRight.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginBottom.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="labelPaper.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 73</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginBottom.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelPrinter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 40</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginBottom.Name" xml:space="preserve">
-    <value>textBoxMarginBottom</value>
-  </data>
-  <data name="&gt;&gt;labelMarginLeft.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;labelMarginTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelMarginLeft.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="comboBoxPaper.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 28</value>
-  </data>
-  <data name="labelMarginLeft.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="labelPaper.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 40</value>
-  </data>
-  <data name="printPreviewDialog.Enabled" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;labelMarginLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelMarginBottom.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="labelMarginRight.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="textBoxMarginTop.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="comboBoxPrinter.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="comboBoxPrinter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 40</value>
-  </data>
-  <data name="&gt;&gt;labelMarginTop.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelMarginBottom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelPrinter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 33</value>
-  </data>
-  <data name="&gt;&gt;buttonSettingPrinter.Name" xml:space="preserve">
-    <value>buttonSettingPrinter</value>
-  </data>
-  <data name="labelMarginTop.Text" xml:space="preserve">
-    <value>上边距</value>
-  </data>
-  <data name="&gt;&gt;labelMarginBottom.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;labelPrinter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelPaper.Text" xml:space="preserve">
-    <value>当前纸张</value>
-  </data>
-  <data name="labelMarginRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 40</value>
-  </data>
-  <data name="printPreviewDialog.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;comboBoxPrinter.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="labelMarginRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 167</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelPaper.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelMarginBottom.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;comboBoxPrinter.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;labelPaper.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="labelMarginTop.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="labelPaper.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;buttonSettingPrinter.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormPrintSetting</value>
-  </data>
-  <data name="labelMarginBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 40</value>
-  </data>
-  <data name="labelMarginTop.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;labelPrinter.Name" xml:space="preserve">
-    <value>labelPrinter</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
-  </data>
-  <data name="textBoxMarginRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 27</value>
-  </data>
-  <data name="&gt;&gt;comboBoxPaper.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginRight.Name" xml:space="preserve">
-    <value>textBoxMarginRight</value>
-  </data>
-  <data name="labelMarginTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 40</value>
-  </data>
-  <data name="labelMarginBottom.Text" xml:space="preserve">
-    <value>下边距</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>544, 350</value>
-  </data>
-  <data name="buttonSettingPrinter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>345, 80</value>
-  </data>
-  <data name="&gt;&gt;labelMarginRight.Name" xml:space="preserve">
-    <value>labelMarginRight</value>
-  </data>
-  <data name="checkBoxKeepRadio.Text" xml:space="preserve">
-    <value>保持原图的比例并且居中显示</value>
-  </data>
-  <data name="checkBoxKeepRadio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 24</value>
-  </data>
-  <data name="textBoxMarginLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 138</value>
-  </data>
-  <data name="textBoxMarginLeft.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="textBoxMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 174</value>
-  </data>
-  <data name="checkBoxKeepRadio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 231</value>
-  </data>
-  <data name="comboBoxPaper.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
@@ -635,155 +458,7 @@
         GP//+B////gf//////////////////////8=
 </value>
   </data>
-  <data name="&gt;&gt;textBoxMarginTop.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;labelPrinter.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="checkBoxKeepRadio.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="comboBoxPrinter.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="textBoxMarginLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 27</value>
-  </data>
-  <data name="&gt;&gt;labelMarginTop.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="textBoxMarginRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 174</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginTop.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelMarginLeft.Text" xml:space="preserve">
-    <value>左边距</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>打印机设置</value>
+    <value>Printer Setting</value>
   </data>
-  <data name="buttonSettingPrinter.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginRight.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;printDocument.Name" xml:space="preserve">
-    <value>printDocument</value>
-  </data>
-  <data name="&gt;&gt;comboBoxPaper.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;printDocument.Type" xml:space="preserve">
-    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginLeft.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelMarginRight.Text" xml:space="preserve">
-    <value>右边距</value>
-  </data>
-  <data name="&gt;&gt;checkBoxKeepRadio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBoxMarginTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 27</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginLeft.Name" xml:space="preserve">
-    <value>textBoxMarginLeft</value>
-  </data>
-  <data name="&gt;&gt;checkBoxKeepRadio.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelPrinter.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;printDialog.Name" xml:space="preserve">
-    <value>printDialog</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginTop.Name" xml:space="preserve">
-    <value>textBoxMarginTop</value>
-  </data>
-  <data name="printPreviewDialog.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;buttonSettingPrinter.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSettingPrinter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelPrinter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="printPreviewDialog.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>400, 300</value>
-  </data>
-  <data name="checkBoxKeepRadio.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="textBoxMarginTop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 138</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>526, 303</value>
-  </data>
-  <data name="&gt;&gt;labelMarginBottom.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBoxPrinter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;labelMarginRight.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelPaper.Name" xml:space="preserve">
-    <value>labelPaper</value>
-  </data>
-  <data name="&gt;&gt;labelMarginLeft.Name" xml:space="preserve">
-    <value>labelMarginLeft</value>
-  </data>
-  <data name="labelPrinter.Text" xml:space="preserve">
-    <value>当前打印机</value>
-  </data>
-  <data name="&gt;&gt;textBoxMarginBottom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;printDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PrintDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelMarginLeft.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;labelMarginRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <metadata name="printPreviewDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>326, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="printDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>157, 17</value>
-  </metadata>
-  <metadata name="printDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

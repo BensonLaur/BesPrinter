@@ -11,7 +11,6 @@ namespace BesPrinter
     public class JsonSerializer<T>
     where T : class
     {
-        const string SAVE_PATH = "jsonconfig/";
         /// <summary>
         /// 单例模式
         /// </summary>
@@ -26,11 +25,12 @@ namespace BesPrinter
         /// <returns></returns>
         private static string GetSavePath()
         {
-            if (!Directory.Exists(SAVE_PATH))
+            string savePath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\BesPrinter\\jsonconfig\\";
+            if (!Directory.Exists(savePath))
             {
-                Directory.CreateDirectory(SAVE_PATH);
+                Directory.CreateDirectory(savePath);
             }
-            return $"{SAVE_PATH}{typeof(T).ToString()}.json";
+            return $"{savePath}{typeof(T).ToString()}.json";
         }
         /// <summary>
         /// 保存配置

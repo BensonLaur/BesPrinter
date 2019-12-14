@@ -40,36 +40,40 @@
             this.buttonSelectFloder = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
-            this.toolTipDragDrop = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipFormMain = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // labelPath
             // 
             resources.ApplyResources(this.labelPath, "labelPath");
             this.labelPath.Name = "labelPath";
+            this.toolTipFormMain.SetToolTip(this.labelPath, resources.GetString("labelPath.ToolTip"));
             // 
             // textBoxPath
             // 
-            this.textBoxPath.CausesValidation = false;
             resources.ApplyResources(this.textBoxPath, "textBoxPath");
+            this.textBoxPath.CausesValidation = false;
             this.textBoxPath.Name = "textBoxPath";
             this.textBoxPath.ReadOnly = true;
+            this.toolTipFormMain.SetToolTip(this.textBoxPath, resources.GetString("textBoxPath.ToolTip"));
             // 
             // buttonSelectFile
             // 
             resources.ApplyResources(this.buttonSelectFile, "buttonSelectFile");
             this.buttonSelectFile.Name = "buttonSelectFile";
+            this.toolTipFormMain.SetToolTip(this.buttonSelectFile, resources.GetString("buttonSelectFile.ToolTip"));
             this.buttonSelectFile.UseVisualStyleBackColor = true;
             this.buttonSelectFile.Click += new System.EventHandler(this.buttonSelectFile_Click);
             // 
             // listViewImage
             // 
-            this.listViewImage.LargeImageList = this.imageList;
             resources.ApplyResources(this.listViewImage, "listViewImage");
+            this.listViewImage.LargeImageList = this.imageList;
             this.listViewImage.Name = "listViewImage";
             this.listViewImage.ShowItemToolTips = true;
             this.listViewImage.SmallImageList = this.imageList;
             this.listViewImage.StateImageList = this.imageList;
+            this.toolTipFormMain.SetToolTip(this.listViewImage, resources.GetString("listViewImage.ToolTip"));
             this.listViewImage.UseCompatibleStateImageBehavior = false;
             this.listViewImage.View = System.Windows.Forms.View.List;
             this.listViewImage.DoubleClick += new System.EventHandler(this.ListViewItemDoubleClick);
@@ -90,6 +94,7 @@
             // 
             resources.ApplyResources(this.buttonPrintSetting, "buttonPrintSetting");
             this.buttonPrintSetting.Name = "buttonPrintSetting";
+            this.toolTipFormMain.SetToolTip(this.buttonPrintSetting, resources.GetString("buttonPrintSetting.ToolTip"));
             this.buttonPrintSetting.UseVisualStyleBackColor = true;
             this.buttonPrintSetting.Click += new System.EventHandler(this.buttonPrintSetting_Click);
             // 
@@ -97,6 +102,7 @@
             // 
             resources.ApplyResources(this.buttonPrint, "buttonPrint");
             this.buttonPrint.Name = "buttonPrint";
+            this.toolTipFormMain.SetToolTip(this.buttonPrint, resources.GetString("buttonPrint.ToolTip"));
             this.buttonPrint.UseVisualStyleBackColor = true;
             this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
             // 
@@ -104,26 +110,32 @@
             // 
             resources.ApplyResources(this.buttonSelectFloder, "buttonSelectFloder");
             this.buttonSelectFloder.Name = "buttonSelectFloder";
+            this.toolTipFormMain.SetToolTip(this.buttonSelectFloder, resources.GetString("buttonSelectFloder.ToolTip"));
             this.buttonSelectFloder.UseVisualStyleBackColor = true;
             this.buttonSelectFloder.Click += new System.EventHandler(this.buttonSelectFloder_Click);
             // 
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog1";
+            resources.ApplyResources(this.openFileDialog, "openFileDialog");
             // 
-            // toolTipDragDrop
+            // folderBrowserDialog
             // 
-            this.toolTipDragDrop.AutomaticDelay = 100;
-            this.toolTipDragDrop.AutoPopDelay = 5000;
-            this.toolTipDragDrop.InitialDelay = 50;
-            this.toolTipDragDrop.ReshowDelay = 20;
-            this.toolTipDragDrop.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipDragDrop.ToolTipTitle = "可通过拖放文件或文件夹来快速选择";
+            resources.ApplyResources(this.folderBrowserDialog, "folderBrowserDialog");
+            // 
+            // toolTipFormMain
+            // 
+            this.toolTipFormMain.AutomaticDelay = 100;
+            this.toolTipFormMain.AutoPopDelay = 5000;
+            this.toolTipFormMain.InitialDelay = 50;
+            this.toolTipFormMain.ReshowDelay = 20;
+            this.toolTipFormMain.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTipFormMain.ToolTipTitle = "Tip";
             // 
             // FormMain
             // 
-            this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
+            this.AllowDrop = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.buttonSelectFloder);
             this.Controls.Add(this.buttonPrint);
@@ -135,6 +147,7 @@
             this.HelpButton = true;
             this.MaximizeBox = false;
             this.Name = "FormMain";
+            this.toolTipFormMain.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMain_FormClosed);
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.FormMain_DragDrop);
@@ -156,7 +169,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
         private System.Windows.Forms.ImageList imageList;
-        private System.Windows.Forms.ToolTip toolTipDragDrop;
+        private System.Windows.Forms.ToolTip toolTipFormMain;
     }
 }
 
