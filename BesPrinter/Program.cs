@@ -15,9 +15,10 @@ namespace BesPrinter
         [STAThread]
         static int Main(string[] args)
         {
+            //AppConfig.config.SetPrinterConfigName("default");
             //AppConfig.config.SetLanguage("en");
-            System.Threading.Thread.CurrentThread.CurrentUICulture = AppConfig.config.GetCultrueInfo();
-
+            
+            //获得运行模式
             ExeModeManager exeMode = ExeModeManager.AnaliseModeFromArgs(args);
 
             if (exeMode.mode == EXE_MODE.MODE_END)//发生错误，直接返回
@@ -37,6 +38,9 @@ namespace BesPrinter
             }
             else
             {
+                //设置全局运行的语言设置，初始化窗口时会根据设置选择界面翻译
+                System.Threading.Thread.CurrentThread.CurrentUICulture = AppConfig.config.GetCultrueInfo();
+
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new FormMain(exeMode));

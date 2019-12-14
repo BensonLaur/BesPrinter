@@ -30,7 +30,7 @@ namespace BesPrinter
             {
                 Directory.CreateDirectory(savePath);
             }
-            return $"{savePath}{typeof(T).ToString()}.json";
+            return $"{savePath}{typeof(T).ToString()}.{AppConfig.config.GetPrinterConfigName()}.json";
         }
         /// <summary>
         /// 保存配置

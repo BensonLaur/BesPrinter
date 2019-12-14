@@ -23,12 +23,22 @@ namespace BesPrinter
 
         private string GetLanguage()
         {
-            return iniHelper.Read("basic", "language","");
+            return iniHelper.Read("basic", "language",""); //默认语言字段为空（默认中文）
         }
 
         public void SetLanguage(string language)
         {
             iniHelper.Write("basic", "language", language);
+        }
+
+        public string GetPrinterConfigName()
+        {
+            return iniHelper.Read("config", "name", "default"); //默认配置名称为 default
+        }
+
+        public void SetPrinterConfigName(string configName)
+        {
+            iniHelper.Write("config", "name", configName);
         }
         
         private IniHelper iniHelper = null;
