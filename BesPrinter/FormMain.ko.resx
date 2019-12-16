@@ -128,7 +128,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADQ
-        IAAAAk1TRnQBSQFMAgEBBwIAAQEBBAEBASABAAEgAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        IAAAAk1TRnQBSQFMAgEBBwIAAQEBCAEBASABAAEgAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AYADAAFAAwABAQEAAQgGAAEgGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
         AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
         AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
@@ -383,5 +383,11 @@
   </data>
   <data name="textBoxPath.ToolTip" xml:space="preserve">
     <value>드래그 앤 드롭으로 파일 또는 폴더를 빠르게 선택</value>
+  </data>
+  <data name="buttonPrint.ToolTip" xml:space="preserve">
+    <value>사진 미리보기 및 인쇄</value>
+  </data>
+  <data name="buttonPrintSetting.ToolTip" xml:space="preserve">
+    <value>프린터 관련 매개 변수 설정</value>
   </data>
 </root>
