@@ -281,6 +281,7 @@ namespace BesPrinter
         /// </summary>
         private void buttonSettingPrinter_Click(object sender, EventArgs e)
         {
+            printDialog.AllowSomePages = true;
             printDialog.Document = printDocument;
 
             if (printDialog.ShowDialog() == DialogResult.OK)

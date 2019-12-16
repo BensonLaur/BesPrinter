@@ -1,0 +1,17 @@
+
+v1.0.0.1
+1、
+
+v1.0.0.0
+1、实现主窗口的布局，选中文件或文件夹显示缩略图功能
+2、实现图片的双击查看功能
+3、实现命令行参数的传入：
+  MODE_NORMAL = 0,           //完全正常模式——什么参数都不传, 无参数启动: exe
+  MODE_INIT_PATH = 1,        //初始路径模式——传入一个初始路径: exe 1 "init/file/or/floder/path"
+  MODE_SINGLE_IMAGE = 2,     //单图查看模式——传入一个文件路径：exe 2 "image/file/path"
+  MODE_FORMAT_CONVERT = 3,    //格式装换模式——传入2个格式后缀，2个路径： exe 3 format1 format2 "path1"
+4、MODE_FORMAT_CONVERT = 3, 时，传入的格式支持：
+（1）传入2个格式后缀，2个路径： exe 3 format1 format2 "path1" "path2"
+（2） 或者 传入2个格式后缀，1个路径： exe 3 format1 format2 "path"
+5、确定打印机配置保存的地方保存到用户目录的通用应用数据目录中
+6、支持中英2种语言，使用 ini 配置设置和切换

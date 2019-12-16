@@ -34,59 +34,66 @@
             this.buttonLastOne = new System.Windows.Forms.Button();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.timerOnFirstRefresh = new System.Windows.Forms.Timer(this.components);
+            this.buttonPrintSetting = new System.Windows.Forms.Button();
+            this.buttonPrint = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonNextOne
             // 
+            resources.ApplyResources(this.buttonNextOne, "buttonNextOne");
             this.buttonNextOne.BackColor = System.Drawing.Color.Transparent;
             this.buttonNextOne.BackgroundImage = global::BesPrinter.Properties.Resources.nextOne;
-            this.buttonNextOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonNextOne.Location = new System.Drawing.Point(310, 509);
             this.buttonNextOne.Name = "buttonNextOne";
-            this.buttonNextOne.Size = new System.Drawing.Size(32, 32);
-            this.buttonNextOne.TabIndex = 1;
             this.buttonNextOne.UseVisualStyleBackColor = false;
             this.buttonNextOne.Click += new System.EventHandler(this.buttonNextOne_Click);
             // 
             // buttonLastOne
             // 
+            resources.ApplyResources(this.buttonLastOne, "buttonLastOne");
             this.buttonLastOne.BackColor = System.Drawing.Color.Transparent;
             this.buttonLastOne.BackgroundImage = global::BesPrinter.Properties.Resources.lastOne;
-            this.buttonLastOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonLastOne.CausesValidation = false;
-            this.buttonLastOne.Location = new System.Drawing.Point(269, 509);
             this.buttonLastOne.Name = "buttonLastOne";
-            this.buttonLastOne.Size = new System.Drawing.Size(32, 32);
-            this.buttonLastOne.TabIndex = 2;
             this.buttonLastOne.UseVisualStyleBackColor = false;
             this.buttonLastOne.Click += new System.EventHandler(this.buttonLastOne_Click);
             // 
             // pictureBox
             // 
+            resources.ApplyResources(this.pictureBox, "pictureBox");
             this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox.Location = new System.Drawing.Point(12, 12);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(558, 491);
-            this.pictureBox.TabIndex = 0;
             this.pictureBox.TabStop = false;
             // 
             // timerOnFirstRefresh
             // 
             this.timerOnFirstRefresh.Tick += new System.EventHandler(this.timerOnFirstRefresh_Tick);
             // 
+            // buttonPrintSetting
+            // 
+            resources.ApplyResources(this.buttonPrintSetting, "buttonPrintSetting");
+            this.buttonPrintSetting.Name = "buttonPrintSetting";
+            this.buttonPrintSetting.UseVisualStyleBackColor = true;
+            this.buttonPrintSetting.Click += new System.EventHandler(this.buttonPrintSetting_Click);
+            // 
+            // buttonPrint
+            // 
+            resources.ApplyResources(this.buttonPrint, "buttonPrint");
+            this.buttonPrint.Name = "buttonPrint";
+            this.buttonPrint.UseVisualStyleBackColor = true;
+            this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
+            // 
             // FormViewImage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(582, 553);
+            this.Controls.Add(this.buttonPrint);
+            this.Controls.Add(this.buttonPrintSetting);
             this.Controls.Add(this.buttonNextOne);
             this.Controls.Add(this.buttonLastOne);
             this.Controls.Add(this.pictureBox);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(300, 300);
             this.Name = "FormViewImage";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormViewImage_FormClosed);
             this.Shown += new System.EventHandler(this.FormViewImage_Shown);
@@ -102,5 +109,7 @@
         private System.Windows.Forms.Button buttonLastOne;
         private System.Windows.Forms.Button buttonNextOne;
         private System.Windows.Forms.Timer timerOnFirstRefresh;
+        private System.Windows.Forms.Button buttonPrintSetting;
+        private System.Windows.Forms.Button buttonPrint;
     }
 }

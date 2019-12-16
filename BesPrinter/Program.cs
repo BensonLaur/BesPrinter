@@ -17,6 +17,7 @@ namespace BesPrinter
         {
             //AppConfig.config.SetPrinterConfigName("default");
             //AppConfig.config.SetLanguage("en");
+            string lang = AppConfig.config.GetLanguage();
             
             //获得运行模式
             ExeModeManager exeMode = ExeModeManager.AnaliseModeFromArgs(args);
@@ -38,8 +39,11 @@ namespace BesPrinter
             }
             else
             {
-                //设置全局运行的语言设置，初始化窗口时会根据设置选择界面翻译
-                System.Threading.Thread.CurrentThread.CurrentUICulture = AppConfig.config.GetCultrueInfo();
+                if (!lang.Equals("") && !lang.Equals("zh"))
+                {
+                    //设置全局运行的语言设置，初始化窗口时会根据设置选择界面翻译
+                    System.Threading.Thread.CurrentThread.CurrentUICulture = AppConfig.config.GetCultrueInfo();
+                }
 
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);

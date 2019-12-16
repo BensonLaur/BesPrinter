@@ -131,6 +131,82 @@
   <data name="labelMarginRight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAz1gwIM1YMoHOWTHBzlkxwc1YMoHPWjAwAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADOWTHhzlky/85ZMv/OWTL/zlky/85ZMeEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADPWDAgz1gwQAAAAAAAAAAAAAAAAM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/wAA
+        AAAAAAAAAAAAAM9YMEDPWDAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAz1gwYM5ZMv/OWTL/zlgxsQAAAADPWjAwzlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/z1owMAAAAADOWDGhzlky/85ZMv/PWDBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9YMGDOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/PWDBgAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWDAgzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/PWDAgAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9YMEDOWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/89Y
+        MEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM5YMaHOWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/NWDKfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM1Y
+        MvHOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADPWjAwzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlkxz89XME4AAAAAAAAAAM9ZMFDOWTHPzlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/z1owMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9Y
+        MCDOWTHhzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85YMd/PUDAQAAAAAAAAAAAAAAAAAAAAAAAA
+        AADOWDHRzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMeHPWDAgAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAzVgygc5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/z1kwUAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAM9ZMFDOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/81YMoEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADNWDKBzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/PUDAQAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlgxoQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAM1YMoHOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/89Q
+        MBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWDGxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzVgygc5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/z1kwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9ZMFDOWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/81YMoEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWDAgzlgx385ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTHhz1AwEAAAAAAAAAAAAAAAAAAAAADPUDAQzlgx0c5ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWDHfz1gwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9a
+        MDDOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTHhz1kwUM9QMBDPUDAQz1kwUM5ZMeHOWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/PWjAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/zlky/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADOWDGxzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlgx0QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAz1gwQM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/z1gwQAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWDAgzlkx785ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
+        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMe/PWDAgAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWTBQzlky/85ZMv/OWTL/zlky/85Z
+        Me/OWTHvzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlkx785YMd/OWTL/zlky/85ZMv/OWTL/z1gwYAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWTBQzlkx785Z
+        Mv/NWDKfAAAAAM9aMDDOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/PWjAwAAAAAM5YMaHOWTL/zlkx789Z
+        MFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADPWDAgzlkxPgAAAAAAAAAAAAAAAM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/wAAAAAAAAAAAAAAAM9Y
+        MEDPWDAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzlkx4c5ZMv/OWTL/zlky/85ZMv/OWDHfAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWDAgz1gyfs9YMn7PWDJ+z1gyfs9Y
+        MCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA//////////////////w////4H///+B///xgY//4AAH/8AAA//AAAP/wA
+        AD/+AAB//gPAf/AH4A/gD/AH4A/wB+AP8AfgD/AH8AfgD/4DwH/+AAB//AAAP/wAAD/8AAA//gAAf/8Y
+        GP//+B////gf//////////////////////8=
+</value>
+  </data>
   <data name="labelPrinter.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -313,8 +389,14 @@
   <data name="&gt;&gt;checkBoxKeepRadio.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBoxPaper.Name" xml:space="preserve">
-    <value>comboBoxPaper</value>
+  <data name="checkBoxKeepRadio.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelMarginLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPrinter.Name" xml:space="preserve">
+    <value>labelPrinter</value>
   </data>
   <data name="labelMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
     <value>273, 167</value>
@@ -325,14 +407,8 @@
   <data name="&gt;&gt;labelMarginTop.Name" xml:space="preserve">
     <value>labelMarginTop</value>
   </data>
-  <data name="&gt;&gt;textBoxMarginRight.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="buttonSettingPrinter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 30</value>
-  </data>
-  <data name="labelMarginTop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 131</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>526, 303</value>
   </data>
   <data name="labelMarginLeft.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 40</value>
@@ -352,25 +428,22 @@
   <data name="textBoxMarginBottom.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 27</value>
   </data>
-  <data name="&gt;&gt;comboBoxPrinter.Name" xml:space="preserve">
-    <value>comboBoxPrinter</value>
-  </data>
   <data name="&gt;&gt;textBoxMarginLeft.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="&gt;&gt;printPreviewDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.PrintPreviewDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelMarginLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 131</value>
+  <data name="checkBoxKeepRadio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;labelMarginRight.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;comboBoxPaper.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="textBoxMarginBottom.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="&gt;&gt;labelMarginLeft.Name" xml:space="preserve">
+    <value>labelMarginLeft</value>
   </data>
-  <data name="labelPaper.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="labelPrinter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
   <data name="comboBoxPaper.Location" type="System.Drawing.Point, System.Drawing">
@@ -379,11 +452,11 @@
   <data name="textBoxMarginRight.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;textBoxMarginBottom.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="labelPaper.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 73</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPaper.Name" xml:space="preserve">
+    <value>comboBoxPaper</value>
   </data>
   <data name="&gt;&gt;textBoxMarginBottom.Parent" xml:space="preserve">
     <value>$this</value>
@@ -403,8 +476,8 @@
   <data name="&gt;&gt;labelMarginTop.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelMarginLeft.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;labelMarginRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="comboBoxPaper.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 28</value>
@@ -412,8 +485,8 @@
   <data name="labelMarginLeft.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="labelPaper.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 40</value>
+  <data name="&gt;&gt;labelPaper.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="printPreviewDialog.Enabled" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -433,6 +506,9 @@
   <data name="comboBoxPrinter.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="&gt;&gt;textBoxMarginTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="comboBoxPrinter.Location" type="System.Drawing.Point, System.Drawing">
     <value>154, 40</value>
   </data>
@@ -448,8 +524,8 @@
   <data name="&gt;&gt;buttonSettingPrinter.Name" xml:space="preserve">
     <value>buttonSettingPrinter</value>
   </data>
-  <data name="labelMarginTop.Text" xml:space="preserve">
-    <value>上边距</value>
+  <data name="&gt;&gt;textBoxMarginLeft.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;labelMarginBottom.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -457,11 +533,14 @@
   <data name="&gt;&gt;labelPrinter.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelPaper.Text" xml:space="preserve">
-    <value>当前纸张</value>
+  <data name="textBoxMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 174</value>
   </data>
   <data name="labelMarginRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 40</value>
+  </data>
+  <data name="&gt;&gt;labelMarginRight.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="printPreviewDialog.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
     <value>0, 0</value>
@@ -478,29 +557,23 @@
   <data name="&gt;&gt;textBoxMarginLeft.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelPaper.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;textBoxMarginRight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>544, 350</value>
   </data>
   <data name="labelMarginBottom.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;comboBoxPrinter.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
   <data name="&gt;&gt;labelPaper.ZOrder" xml:space="preserve">
     <value>12</value>
-  </data>
-  <data name="labelMarginTop.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
   </data>
   <data name="labelPaper.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;buttonSettingPrinter.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormPrintSetting</value>
+  <data name="&gt;&gt;comboBoxPrinter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelMarginBottom.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 40</value>
@@ -508,14 +581,20 @@
   <data name="labelMarginTop.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;labelPrinter.Name" xml:space="preserve">
-    <value>labelPrinter</value>
+  <data name="&gt;&gt;labelMarginRight.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>
   </data>
+  <data name="checkBoxKeepRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 231</value>
+  </data>
   <data name="textBoxMarginRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 27</value>
+  </data>
+  <data name="&gt;&gt;textBoxMarginRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboBoxPaper.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -526,20 +605,14 @@
   <data name="labelMarginTop.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 40</value>
   </data>
-  <data name="labelMarginBottom.Text" xml:space="preserve">
-    <value>下边距</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>544, 350</value>
+  <data name="labelPaper.Text" xml:space="preserve">
+    <value>当前纸张</value>
   </data>
   <data name="buttonSettingPrinter.Location" type="System.Drawing.Point, System.Drawing">
     <value>345, 80</value>
   </data>
   <data name="&gt;&gt;labelMarginRight.Name" xml:space="preserve">
     <value>labelMarginRight</value>
-  </data>
-  <data name="checkBoxKeepRadio.Text" xml:space="preserve">
-    <value>保持原图的比例并且居中显示</value>
   </data>
   <data name="checkBoxKeepRadio.Size" type="System.Drawing.Size, System.Drawing">
     <value>226, 24</value>
@@ -550,90 +623,17 @@
   <data name="textBoxMarginLeft.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="textBoxMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 174</value>
+  <data name="&gt;&gt;checkBoxKeepRadio.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="checkBoxKeepRadio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 231</value>
+  <data name="checkBoxKeepRadio.Text" xml:space="preserve">
+    <value>保持原图的比例并且居中显示</value>
   </data>
-  <data name="comboBoxPaper.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="labelPaper.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAz1gwIM1YMoHOWTHBzlkxwc1YMoHPWjAwAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADOWTHhzlky/85ZMv/OWTL/zlky/85ZMeEAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAADPWDAgz1gwQAAAAAAAAAAAAAAAAM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/wAA
-        AAAAAAAAAAAAAM9YMEDPWDAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAz1gwYM5ZMv/OWTL/zlgxsQAAAADPWjAwzlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/z1owMAAAAADOWDGhzlky/85ZMv/PWDBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9YMGDOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/PWDBgAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWDAgzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/PWDAgAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9YMEDOWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/89Y
-        MEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM5YMaHOWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/NWDKfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM1Y
-        MvHOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AADPWjAwzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlkxz89XME4AAAAAAAAAAM9ZMFDOWTHPzlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/z1owMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9Y
-        MCDOWTHhzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85YMd/PUDAQAAAAAAAAAAAAAAAAAAAAAAAA
-        AADOWDHRzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMeHPWDAgAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAzVgygc5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/z1kwUAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAM9ZMFDOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/81YMoEAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAADNWDKBzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/PUDAQAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlgxoQAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAM1YMoHOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/89Q
-        MBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWDGxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzVgygc5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/z1kwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9ZMFDOWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/81YMoEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWDAgzlgx385ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTHhz1AwEAAAAAAAAAAAAAAAAAAAAADPUDAQzlgx0c5ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWDHfz1gwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9a
-        MDDOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTHhz1kwUM9QMBDPUDAQz1kwUM5ZMeHOWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/PWjAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/zlky/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAADOWDGxzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlgx0QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAz1gwQM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/z1gwQAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWDAgzlkx785ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85Z
-        Mv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlky/85ZMe/PWDAgAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWTBQzlky/85ZMv/OWTL/zlky/85Z
-        Me/OWTHvzlky/85ZMv/OWTL/zlky/85ZMv/OWTL/zlkx785YMd/OWTL/zlky/85ZMv/OWTL/z1gwYAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWTBQzlkx785Z
-        Mv/NWDKfAAAAAM9aMDDOWTL/zlky/85ZMv/OWTL/zlky/85ZMv/PWjAwAAAAAM5YMaHOWTL/zlkx789Z
-        MFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AADPWDAgzlkxPgAAAAAAAAAAAAAAAM5ZMv/OWTL/zlky/85ZMv/OWTL/zlky/wAAAAAAAAAAAAAAAM9Y
-        MEDPWDAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzlkx4c5ZMv/OWTL/zlky/85ZMv/OWDHfAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPWDAgz1gyfs9YMn7PWDJ+z1gyfs9Y
-        MCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAA//////////////////w////4H///+B///xgY//4AAH/8AAA//AAAP/wA
-        AD/+AAB//gPAf/AH4A/gD/AH4A/wB+AP8AfgD/AH8AfgD/4DwH/+AAB//AAAP/wAAD/8AAA//gAAf/8Y
-        GP//+B////gf//////////////////////8=
-</value>
+  <data name="labelPaper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 40</value>
   </data>
   <data name="&gt;&gt;textBoxMarginTop.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -641,8 +641,8 @@
   <data name="&gt;&gt;labelPrinter.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="checkBoxKeepRadio.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;comboBoxPrinter.Name" xml:space="preserve">
+    <value>comboBoxPrinter</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -659,8 +659,8 @@
   <data name="textBoxMarginRight.Location" type="System.Drawing.Point, System.Drawing">
     <value>154, 174</value>
   </data>
-  <data name="&gt;&gt;textBoxMarginTop.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="labelMarginTop.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="labelMarginLeft.Text" xml:space="preserve">
     <value>左边距</value>
@@ -671,20 +671,23 @@
   <data name="buttonSettingPrinter.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
+  <data name="printPreviewDialog.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
   <data name="&gt;&gt;textBoxMarginRight.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;printDocument.Name" xml:space="preserve">
     <value>printDocument</value>
   </data>
-  <data name="&gt;&gt;comboBoxPaper.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="textBoxMarginBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;printDocument.Type" xml:space="preserve">
     <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="&gt;&gt;textBoxMarginLeft.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="comboBoxPaper.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="labelMarginRight.Text" xml:space="preserve">
     <value>右边距</value>
@@ -698,8 +701,8 @@
   <data name="&gt;&gt;textBoxMarginLeft.Name" xml:space="preserve">
     <value>textBoxMarginLeft</value>
   </data>
-  <data name="&gt;&gt;checkBoxKeepRadio.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="labelMarginBottom.Text" xml:space="preserve">
+    <value>下边距</value>
   </data>
   <data name="&gt;&gt;labelPrinter.ZOrder" xml:space="preserve">
     <value>13</value>
@@ -710,8 +713,8 @@
   <data name="&gt;&gt;textBoxMarginTop.Name" xml:space="preserve">
     <value>textBoxMarginTop</value>
   </data>
-  <data name="printPreviewDialog.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;textBoxMarginBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;buttonSettingPrinter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -719,42 +722,41 @@
   <data name="&gt;&gt;buttonSettingPrinter.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBoxMarginRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;comboBoxPrinter.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="labelPrinter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="labelMarginLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 131</value>
   </data>
   <data name="printPreviewDialog.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>400, 300</value>
   </data>
-  <data name="checkBoxKeepRadio.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="labelMarginTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 131</value>
   </data>
   <data name="textBoxMarginTop.Location" type="System.Drawing.Point, System.Drawing">
     <value>376, 138</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>526, 303</value>
+  <data name="labelMarginTop.Text" xml:space="preserve">
+    <value>上边距</value>
   </data>
   <data name="&gt;&gt;labelMarginBottom.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBoxPrinter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormPrintSetting</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="labelMarginLeft.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;labelMarginRight.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="buttonSettingPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 30</value>
   </data>
   <data name="&gt;&gt;labelPaper.Name" xml:space="preserve">
     <value>labelPaper</value>
   </data>
-  <data name="&gt;&gt;labelMarginLeft.Name" xml:space="preserve">
-    <value>labelMarginLeft</value>
+  <data name="&gt;&gt;buttonSettingPrinter.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="labelPrinter.Text" xml:space="preserve">
     <value>当前打印机</value>
@@ -765,17 +767,15 @@
   <data name="&gt;&gt;printDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.PrintDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelMarginLeft.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;labelMarginRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <metadata name="printPreviewDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>326, 17</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
+    <value>zh</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

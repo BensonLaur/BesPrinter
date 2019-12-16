@@ -128,19 +128,38 @@
     <EmbeddedResource Include="FormMain.en.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ko.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.zh.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrintSetting.en.resx">
       <DependentUpon>FormPrintSetting.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPrintSetting.ko.resx">
+      <DependentUpon>FormPrintSetting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrintSetting.resx">
       <DependentUpon>FormPrintSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrintSetting.zh.resx">
+      <DependentUpon>FormPrintSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormViewImage.en.resx">
+      <DependentUpon>FormViewImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormViewImage.ko.resx">
+      <DependentUpon>FormViewImage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormViewImage.resx">
       <DependentUpon>FormViewImage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Language\Translation.en.resx" />
+    <EmbeddedResource Include="Language\Translation.ko.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -155,7 +174,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Translation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -189,6 +210,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="release note.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

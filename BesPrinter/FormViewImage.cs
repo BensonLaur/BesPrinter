@@ -19,7 +19,7 @@ namespace BesPrinter
         }
 
         //设置用于显示的数据（外部设置）
-        public void SetImageForView(List<string> filePaths, int index)
+        public void SetImageForView(List<string> filePaths, int index, bool showPrintButton)
         {
             listImagePath = filePaths;
             currentIndex = index;
@@ -27,6 +27,14 @@ namespace BesPrinter
             //如果图片只有1张，上一个和下一个按钮就不显示
             buttonLastOne.Visible = !hasOnlyOne();
             buttonNextOne.Visible = !hasOnlyOne();
+
+            //显示按钮
+            buttonPrint.Visible = showPrintButton;
+            buttonPrintSetting.Visible = showPrintButton;
+            if (showPrintButton)
+            {
+                formPrintSetting.SetPrintingImage(filePaths);
+            }
 
             //更新图片信息，包括标题和图片缓存（在下标的改变之后）
             UpdateImageInfo();
@@ -74,6 +82,9 @@ namespace BesPrinter
             this.pictureBox.Size = new System.Drawing.Size(bounds.Width - 40, bounds.Height - 100);
             this.buttonLastOne.Location = new System.Drawing.Point(12 + pictureBox.Size.Width / 2 - 35, bounds.Height - 80);
             this.buttonNextOne.Location = new System.Drawing.Point(12 + pictureBox.Size.Width / 2 + 3, bounds.Height - 80);
+
+            this.buttonPrintSetting.Location = new System.Drawing.Point(12, bounds.Height - 80);
+            this.buttonPrint.Location = new System.Drawing.Point(pictureBox.Size.Width - buttonPrint.Width, bounds.Height - 80);
 
             //修改布局之后
             //刷新图片显示
@@ -226,5 +237,20 @@ namespace BesPrinter
         private int currentIndex = 0;
         private Image imageBuffer = null;
 
+        //打印机设置窗口(预览图片用的打印窗口类, 只用于单独预览图片的模式)
+        private FormPrintSetting formPrintSetting = new FormPrintSetting();
+
+        //打印机设置按钮
+        private void buttonPrintSetting_Click(object sender, EventArgs e)
+        {
+            formPrintSetting.ShowDialog();
+        }
+
+        //打印
+        private void buttonPrint_Click(object sender, EventArgs e)
+        {
+            //预览和打印
+            formPrintSetting.PreviewToPrint();
+        }
     }
 }

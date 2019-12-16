@@ -45,6 +45,12 @@ namespace BesPrinter
             {
                 textBoxPath.Text = ExeMode.initPath;
                 loadImageListView(ExeMode.initPath);
+
+                //隐藏按钮等
+                labelPath.Visible = false;
+                textBoxPath.Visible = false;
+                buttonSelectFile.Visible = false;
+                buttonSelectFloder.Visible = false;
             }
             else if(ExeMode.mode == EXE_MODE.MODE_SINGLE_IMAGE)
             {
@@ -173,7 +179,7 @@ namespace BesPrinter
 
             //弹框显示对应路径的图片
             //FormViewImage formViewImage = new FormViewImage();
-            formViewImage.SetImageForView(listImagePath, index);
+            formViewImage.SetImageForView(listImagePath, index, false);
             formViewImage.ShowDialog();
         }
 
@@ -186,7 +192,7 @@ namespace BesPrinter
             if (items.Count <= 0)
                 return;
 
-            formViewImage.SetImageForView(listImagePath, 0);
+            formViewImage.SetImageForView(listImagePath, 0, true);
             formViewImage.ShowDialog();
             this.Close();
         }

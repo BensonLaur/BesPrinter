@@ -21,7 +21,7 @@ namespace BesPrinter
             return new CultureInfo(GetLanguage());
         }
 
-        private string GetLanguage()
+        public string GetLanguage()
         {
             return iniHelper.Read("basic", "language",""); //默认语言字段为空（默认中文）
         }
