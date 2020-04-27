@@ -23,6 +23,7 @@ namespace BesPrinter
             {
                 //读取失败 或者 初次初始化，使用 默认的 printDocument 初始化配置
                 saver = new PrintDocumentSaver();
+                saver.KeepRatio = true; //默认保持比例居中
                 saver.SaveFromPrintDocument(printDocument);
             }
             else
