@@ -67,7 +67,10 @@ namespace BesPrinter
                     || fileInfo.Extension == ".jpg"
                     || fileInfo.Extension == ".jpeg")
                 {
-                    image = Image.FromFile(path);
+                    FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read); //从文件流打开，不占用文件
+                    image = Image.FromStream(fileStream);
+                    fileStream.Close();
+                    fileStream.Dispose();
                 }
                 else if(fileInfo.Extension == ".svg")
                 {
@@ -103,7 +106,10 @@ namespace BesPrinter
                 }
                 else if (fileInfo.Extension == ".emf")
                 {
-                    image = new Metafile(path);
+                    FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read); //从文件流打开，不占用文件
+                    image = new Metafile(fileStream);
+                    fileStream.Close();
+                    fileStream.Dispose();
                 }
                 else
                 {
