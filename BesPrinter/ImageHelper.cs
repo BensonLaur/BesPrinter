@@ -55,66 +55,74 @@ namespace BesPrinter
             Bitmap defaultBitmap = global::BesPrinter.Properties.Resources.unsupported_image;
 
             Image image = null;
-            if(!File.Exists(path))
-            {
-                image = defaultBitmap;  //文件不存在，返回默认图片
-            }
-            else
-            {
-                FileInfo fileInfo = new FileInfo(path);
-                if (fileInfo.Extension == ".bmp"
-                    || fileInfo.Extension == ".png"
-                    || fileInfo.Extension == ".jpg"
-                    || fileInfo.Extension == ".jpeg")
-                {
-                    FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read); //从文件流打开，不占用文件
-                    image = Image.FromStream(fileStream);
-                    fileStream.Close();
-                    fileStream.Dispose();
-                }
-                else if(fileInfo.Extension == ".svg")
-                {
-                    //临时创建一个 svg 转换而来的 emf 文件
-                    string emfTempPath = Path.GetTempFileName();
-                    try
-                    {
-                        SvgDocument svg = SvgDocument.Open(path);
-                        using (Graphics bufferGraphics = Graphics.FromHwndInternal(IntPtr.Zero))
-                        {
-                            using (var metafile = new Metafile(emfTempPath, bufferGraphics.GetHdc()))
-                            {
-                                using (Graphics graphics = Graphics.FromImage(metafile))
-                                {
-                                    svg.Draw(graphics);
-                                }
-                            }
 
-                            image = new Metafile(emfTempPath); //读取 emf 文件
-                        }
-                    }
-                    catch (Exception e)
-                    {
-                        MessageBox.Show(e.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    finally
-                    {
-                        //现在获得图片不能立刻删除文件，不然得到 image 也无法获得其中的数据
-                        if (listTempEmfFiles == null)
-                            listTempEmfFiles = new List<string>();
-                        listTempEmfFiles.Add(emfTempPath);
-                    }
-                }
-                else if (fileInfo.Extension == ".emf")
+            try
+            {
+                if (!File.Exists(path))
                 {
-                    FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read); //从文件流打开，不占用文件
-                    image = new Metafile(fileStream);
-                    fileStream.Close();
-                    fileStream.Dispose();
+                    image = defaultBitmap;  //文件不存在，返回默认图片
                 }
                 else
                 {
-                    image = defaultBitmap; //格式不支持不存在，返回默认图片
+                    FileInfo fileInfo = new FileInfo(path);
+                    if (fileInfo.Extension == ".bmp"
+                        || fileInfo.Extension == ".png"
+                        || fileInfo.Extension == ".jpg"
+                        || fileInfo.Extension == ".jpeg")
+                    {
+                        FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read); //从文件流打开，不占用文件
+                        image = Image.FromStream(fileStream);
+                        fileStream.Close();
+                        fileStream.Dispose();
+                    }
+                    else if (fileInfo.Extension == ".svg")
+                    {
+                        //临时创建一个 svg 转换而来的 emf 文件
+                        string emfTempPath = Path.GetTempFileName();
+                        try
+                        {
+                            SvgDocument svg = SvgDocument.Open(path);
+                            using (Graphics bufferGraphics = Graphics.FromHwndInternal(IntPtr.Zero))
+                            {
+                                using (var metafile = new Metafile(emfTempPath, bufferGraphics.GetHdc()))
+                                {
+                                    using (Graphics graphics = Graphics.FromImage(metafile))
+                                    {
+                                        svg.Draw(graphics);
+                                    }
+                                }
+
+                                image = new Metafile(emfTempPath); //读取 emf 文件
+                            }
+                        }
+                        catch (Exception e)
+                        {
+                            MessageBox.Show(e.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        finally
+                        {
+                            //现在获得图片不能立刻删除文件，不然得到 image 也无法获得其中的数据
+                            if (listTempEmfFiles == null)
+                                listTempEmfFiles = new List<string>();
+                            listTempEmfFiles.Add(emfTempPath);
+                        }
+                    }
+                    else if (fileInfo.Extension == ".emf")
+                    {
+                        FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read); //从文件流打开，不占用文件
+                        image = new Metafile(fileStream);
+                        fileStream.Close();
+                        fileStream.Dispose();
+                    }
+                    else
+                    {
+                        image = defaultBitmap; //格式不支持不存在，返回默认图片
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             
             if(image == null)
