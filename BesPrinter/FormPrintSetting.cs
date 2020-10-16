@@ -206,8 +206,24 @@ namespace BesPrinter
                 return;
             }
 
-            printPreviewDialog.Document = printDocument;
-            printPreviewDialog.ShowDialog();
+            try
+            {
+                printPreviewDialog.Document = printDocument;
+                printPreviewDialog.ShowDialog();
+            }
+            catch
+            {
+                //根据反馈, 出现过如下异常
+                //具体原因不明，不过通过正确设置打印机，解决该问题，所以在此提示 “请先正确设置打印机”
+                /*
+                    System.InvalidOperationException: Form that is already displayed modally cannot be displayed as a modal dialog box. Close the form before calling showDialog.
+                       at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+                       at System.Windows.Forms.Form.ShowDialog()
+                       at BesPrinter.FormPrintSetting.PreviewToPrint()
+                       at BesPrinter.FormMain.buttonPrint_Click(Object sender, EventArgs e)
+                */
+                MessageBox.Show(Trans.tr("PleaseSettingPrinterFirst"), Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
         
         /// <summary>

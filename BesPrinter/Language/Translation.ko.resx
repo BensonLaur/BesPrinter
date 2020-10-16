@@ -122,6 +122,9 @@
 
 먼저 인쇄 할 파일을 선택하십시오</value>
   </data>
+  <data name="PleaseSettingPrinterFirst" xml:space="preserve">
+    <value>먼저 프린터를 올바르게 설정하십시오</value>
+  </data>
   <data name="Tip" xml:space="preserve">
     <value>힌트</value>
   </data>

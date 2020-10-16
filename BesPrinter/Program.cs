@@ -16,7 +16,8 @@ namespace BesPrinter
         static int Main(string[] args)
         {
             //AppConfig.config.SetPrinterConfigName("default");
-            //AppConfig.config.SetLanguage("en");
+            // zh  en ko
+            //AppConfig.config.SetLanguage("ko");
             string lang = AppConfig.config.GetLanguage();
             
             //获得运行模式

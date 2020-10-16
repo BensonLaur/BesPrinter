@@ -122,6 +122,9 @@
 
 请先选择需要打印的文件</value>
   </data>
+  <data name="PleaseSettingPrinterFirst" xml:space="preserve">
+    <value>请先正确设置打印机</value>
+  </data>
   <data name="Tip" xml:space="preserve">
     <value>提示</value>
   </data>

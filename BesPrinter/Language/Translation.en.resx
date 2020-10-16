@@ -122,6 +122,9 @@
 
 Please select a file to print first</value>
   </data>
+  <data name="PleaseSettingPrinterFirst" xml:space="preserve">
+    <value>Please set up the printer correctly first</value>
+  </data>
   <data name="Tip" xml:space="preserve">
     <value>Tip</value>
   </data>

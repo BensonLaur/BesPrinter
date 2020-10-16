@@ -72,6 +72,15 @@ namespace BesPrinter.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 请先正确设置打印机.
+        /// </summary>
+        internal static string PleaseSettingPrinterFirst {
+            get {
+                return ResourceManager.GetString("PleaseSettingPrinterFirst", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 提示.
         /// </summary>
         internal static string Tip {
