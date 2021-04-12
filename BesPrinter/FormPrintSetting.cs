@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace BesPrinter
 {
@@ -265,19 +266,30 @@ namespace BesPrinter
                                             saver.MarginsCustom.Left, saver.MarginsCustom.Right,
                                             saver.MarginsCustom.Top, saver.MarginsCustom.Bottom);
                 }
-                
+
+                //Console.WriteLine("Before DrawImage");
                 //绘制
                 args.Graphics.DrawImage(pageImage, rectDraw);
+                //Console.WriteLine("After DrawImage");
             }
             catch (Exception exception)
             {
+                //Console.WriteLine("exception: " + exception.Message);
                 MessageBox.Show(exception.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                MessageBox.Show(Trans.tr("NoEnoughMemoryTryToReduceNumber"), Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                args.HasMorePages = false;
             }
             finally
             {
                 //调用 ImageHelper.LoaderImage(fileName) 后要求使用完立刻释放图片资源
                 if (null != pageImage)
+                {
                     pageImage.Dispose();
+                    pageImage = null;
+                    ClearMemory();
+                    //Console.WriteLine("ClearMemory");
+                }
             }
 
             //分析是否有下一页
@@ -292,6 +304,31 @@ namespace BesPrinter
                 args.HasMorePages = true;
             }
         }
+
+        #region 内存回收
+
+        /// <summary>
+        ///设置线程工作的空间
+        /// </summary>
+        /// <param name="process">线程</param>
+        /// <param name="minSize">最小空间</param>
+        /// <param name="maxSize">最大空间</param>
+        /// <returns></returns>
+        [DllImport("kernel32.dll", EntryPoint = "SetProcessWorkingSetSize")]
+        public static extern int SetProcessWorkingSetSize(IntPtr process, int minSize, int maxSize);
+
+        public void ClearMemory()
+        {
+            GC.Collect();
+            GC.SuppressFinalize(this);
+
+
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            {
+                SetProcessWorkingSetSize(System.Diagnostics.Process.GetCurrentProcess().Handle, -1, -1);
+            }
+        }
+        #endregion
 
         /// <summary>
         /// 设置打印机（弹出 “打印” 框）

@@ -61,6 +61,15 @@ namespace BesPrinter.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 运行内存不足，请尝试减少单次打印的数量.
+        /// </summary>
+        internal static string NoEnoughMemoryTryToReduceNumber {
+            get {
+                return ResourceManager.GetString("NoEnoughMemoryTryToReduceNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 当前没有可打印的文件
         ///
         ///请先选择需要打印的文件.
