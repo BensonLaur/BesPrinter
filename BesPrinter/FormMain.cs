@@ -110,8 +110,15 @@ namespace BesPrinter
                         paths.Add(f.FullName);
                 }
 
+                //obsolete:
                 //后排序（为了数值字符串能够更好排序，先比较长度，再比较内容）
-                listImagePath = paths.OrderBy(p => p.Length).ThenBy(p => p).ToList();
+                //listImagePath = paths.OrderBy(p => p.Length).ThenBy(p => p).ToList();
+
+                //直接按原来顺序排序即可，以免如下顺序被打乱：
+                //02_01_1317649=1.emf
+                //02_02_1317585.emf
+                //02_03_1317775.emf
+                listImagePath = paths;
             }
             else if(File.Exists(path))
             {
