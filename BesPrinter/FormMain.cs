@@ -262,7 +262,9 @@ namespace BesPrinter
                 checkBox_batch.Checked = enableBatch;
                 textBox_count_once.Text = String.Format("{0:D}", countInOneBatch);
 
-                int totalBatch = listImagePath.Count == 1 ? 1 : (listImagePath.Count / countInOneBatch + 1);
+                int totalBatch = listImagePath.Count / countInOneBatch;
+                if (listImagePath.Count % countInOneBatch != 0)
+                    ++totalBatch;
                 label_current_batch.Text = String.Format("({0:D}/{1:D})", 1, totalBatch);
 
                 //根据是否分批次显示更多设置
