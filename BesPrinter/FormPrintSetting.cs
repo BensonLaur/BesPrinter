@@ -209,8 +209,37 @@ namespace BesPrinter
 
             try
             {
-                printPreviewDialog.Document = printDocument;
-                printPreviewDialog.ShowDialog();
+                bool enableBatch = AppConfig.config.GetEnableBatch();
+                int countInOneBatch = AppConfig.config.GetCountInOneBatch();
+                currentBatchIndex = 0;
+
+                if (!enableBatch)
+                    countInOneBatch = listImagePath.Count;
+
+                int maxBatch = (listImagePath.Count - 1) / countInOneBatch;
+                for (int i = 0; i <= maxBatch; ++i)
+                {
+                    currentBatchIndex = i;
+                    indexPrinting = indexPrintingBackupBegin = currentBatchIndex * countInOneBatch;
+                    indexPrintingMax = (currentBatchIndex + 1) * countInOneBatch;
+
+                    //更新界面批次进度
+                    label_current_batch.Text = String.Format("({0:D}/{1:D})", currentBatchIndex + 1, maxBatch + 1);
+
+                    if (maxBatch != 0)
+                    {
+                        string tip = Trans.tr("IsPrintingLabel") + String.Format("{0:D}~{1:D}", indexPrinting + 1, Math.Min(listImagePath.Count, indexPrintingMax));
+                        DialogResult res = MessageBox.Show(tip, Trans.tr("Tip"),MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                        if (res == DialogResult.Cancel)
+                        {
+                            label_current_batch.Text = String.Format("({0:D}/{1:D})", 1, maxBatch + 1);
+                            return;
+                        }
+                    }
+
+                    printPreviewDialog.Document = printDocument;
+                    printPreviewDialog.ShowDialog();
+                }
             }
             catch
             {
@@ -294,10 +323,10 @@ namespace BesPrinter
 
             //分析是否有下一页
             ++indexPrinting;
-            if(indexPrinting == listImagePath.Count)
+            if(indexPrinting == listImagePath.Count || indexPrinting == indexPrintingMax)
             {
                 args.HasMorePages = false;
-                indexPrinting = 0;
+                indexPrinting = indexPrintingBackupBegin; //预览和打印一样范围，所以在预览后和真正打印前，重置开始下标
             }
             else
             {
@@ -356,6 +385,12 @@ namespace BesPrinter
         private List<string> listImagePath = null;
         //标记当前打印的图片的对应下标
         private int indexPrinting = 0;
-        
+        private int indexPrintingBackupBegin = 0;//备份当前批次开头下标
+
+        private int indexPrintingMax;
+        private int currentBatchIndex;
+
+        public void SetLabelCurrentBatch(System.Windows.Forms.Label l) { label_current_batch = l; }
+        private System.Windows.Forms.Label label_current_batch;
     }
 }

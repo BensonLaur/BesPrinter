@@ -61,6 +61,15 @@ namespace BesPrinter.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 正在打印标签:.
+        /// </summary>
+        internal static string IsPrintingLabel {
+            get {
+                return ResourceManager.GetString("IsPrintingLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 运行内存不足，请尝试减少单次打印的数量.
         /// </summary>
         internal static string NoEnoughMemoryTryToReduceNumber {

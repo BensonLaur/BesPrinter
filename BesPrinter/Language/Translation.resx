@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="IsPrintingLabel" xml:space="preserve">
+    <value>正在打印标签:</value>
+  </data>
   <data name="NoEnoughMemoryTryToReduceNumber" xml:space="preserve">
     <value>运行内存不足，请尝试减少单次打印的数量</value>
   </data>

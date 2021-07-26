@@ -32,6 +32,9 @@ namespace BesPrinter
             ExeMode = exeMode;
 
             supportedExtensions = ImageHelper.GetSupportedFormatExtension();
+
+            UpdateBottomStatistics();
+            formPrintSetting.SetLabelCurrentBatch(label_current_batch);
         }
 
         //窗口加载
@@ -148,6 +151,9 @@ namespace BesPrinter
 
             //更新打印需要的数据到打印存储队列中
             formPrintSetting.SetPrintingImage(listImagePath);
+
+            //更新底部统计信息
+            UpdateBottomStatistics();
         }
 
         //拖拽事件：进入
@@ -229,5 +235,71 @@ namespace BesPrinter
         private FormPrintSetting formPrintSetting = new FormPrintSetting();
 
         private ExeModeManager ExeMode = null;
+
+        //刷新显示底部的统计
+        private void UpdateBottomStatistics()
+        {
+            //textBox_count_once.Validating +=
+
+            bool hasData = listImagePath.Count != 0;
+
+            label_total_count_tip.Visible = hasData;
+            label_total_count.Visible = hasData;
+            checkBox_batch.Visible = hasData;
+            label_count_once_tip.Visible = hasData;
+            textBox_count_once.Visible = hasData;
+            label_current_batch_tip.Visible = hasData;
+            label_current_batch.Visible = hasData;
+            
+            if (hasData)
+            {
+                //显示总数
+                label_total_count.Text = String.Format("{0:D}", listImagePath.Count);
+
+                bool enableBatch = AppConfig.config.GetEnableBatch();
+                int countInOneBatch = AppConfig.config.GetCountInOneBatch();
+
+                checkBox_batch.Checked = enableBatch;
+                textBox_count_once.Text = String.Format("{0:D}", countInOneBatch);
+
+                int totalBatch = listImagePath.Count == 1 ? 1 : (listImagePath.Count / countInOneBatch + 1);
+                label_current_batch.Text = String.Format("({0:D}/{1:D})", 1, totalBatch);
+
+                //根据是否分批次显示更多设置
+                label_count_once_tip.Visible = enableBatch;
+                textBox_count_once.Visible = enableBatch;
+                label_current_batch_tip.Visible = enableBatch;
+                label_current_batch.Visible = enableBatch;
+            }
+        }
+
+        //切换分批次
+        private void checkBox_batch_CheckedChanged(object sender, EventArgs e)
+        {
+            AppConfig.config.SetEnableBatch(checkBox_batch.Checked);
+
+            UpdateBottomStatistics();
+        }
+        //输入了每批次打印数量
+        private void textBox_count_once_TextChanged(object sender, EventArgs e)
+        {
+            int countInOnceBatch = 1;
+            try
+            {
+                countInOnceBatch = Convert.ToInt32(textBox_count_once.Text);
+            }
+            catch(Exception exception)
+            {
+                if(textBox_count_once.Text.Length >0)
+                    MessageBox.Show(exception.Message, Trans.tr("Tip"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //Console.WriteLine("exception: " + exception.Message);
+            }
+            if (countInOnceBatch <= 0)
+                countInOnceBatch = 1;
+
+            AppConfig.config.SetCountInOneBatch(countInOnceBatch);
+            
+            UpdateBottomStatistics();
+        }
     }
 }

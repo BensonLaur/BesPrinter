@@ -40,7 +40,27 @@ namespace BesPrinter
         {
             iniHelper.Write("config", "name", configName);
         }
-        
+
+        public bool GetEnableBatch()
+        {
+            string value = iniHelper.Read("printing", "enableBatch", "0"); //默认不启用分批次
+            return (!value.Equals("0"));
+        }
+        public void SetEnableBatch(bool enable)
+        {
+            iniHelper.Write("printing", "enableBatch", enable ? "1" : "0");
+        }
+
+        public int GetCountInOneBatch()
+        {
+            string value = iniHelper.Read("printing", "countInOneBatch", "300"); //默认每批次打印 300
+            return Convert.ToInt32(value);
+        }
+        public void SetCountInOneBatch(int count)
+        {
+            iniHelper.Write("printing", "countInOneBatch", String.Format("{0:D}",count));
+        }
+
         private IniHelper iniHelper = null;
     }
 }
